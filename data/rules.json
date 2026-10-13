@@ -9,5 +9,6 @@
   "minQuestionsInBank": 12,
   "storageKey": "chuanyue-huaxia-v1",
   "sessionKey": "chuanyue-huaxia-run-v1",
-  "resultKey": "chuanyue-huaxia-result-v1"
+  "resultKey": "chuanyue-huaxia-result-v1",
+  "sideKey": "chuanyue-huaxia-side-v1"
 }

@@ -24,7 +24,7 @@ function nextButton(label, onNext) {
   });
 }
 
-export function renderQuestion(parent, question, { index, total, isLast, prior, onGraded, onNext }) {
+export function renderQuestion(parent, question, { index, total, isLast, prior, onGraded, onNext, nextLabel }) {
   parent.replaceChildren();
   const article = el("article", { class: "question", "data-question-id": question.id });
   article.append(
@@ -37,7 +37,7 @@ export function renderQuestion(parent, question, { index, total, isLast, prior, 
   article.append(body, foot);
   parent.append(article);
 
-  const finishLabel = isLast ? "看成绩" : "下一题";
+  const finishLabel = nextLabel || (isLast ? "看成绩" : "下一题");
   if (prior) {
     reveal(question, body, foot, prior, finishLabel, onNext);
     return;

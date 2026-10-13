@@ -1,4 +1,4 @@
-import { emptyProgress } from "./logic.js";
+import { emptyProgress, migrateProgress } from "./logic.js";
 
 function browserStore() {
   try {
@@ -28,11 +28,7 @@ export function loadProgress(storageKey) {
   try {
     const raw = durable.getItem(storageKey);
     if (!raw) return emptyProgress();
-    const parsed = JSON.parse(raw);
-    if (!parsed || parsed.v !== 1 || typeof parsed !== "object") return emptyProgress();
-    if (!parsed.chapters || typeof parsed.chapters !== "object") parsed.chapters = {};
-    if (parsed.difficulty !== "primary" && parsed.difficulty !== "junior") parsed.difficulty = null;
-    return parsed;
+    return migrateProgress(JSON.parse(raw));
   } catch {
     return emptyProgress();
   }

@@ -1,15 +1,28 @@
 import { createAvatar } from "./avatar.js";
 import { el, say } from "./dom.js";
 import {
+  ACHIEVEMENTS,
+  STREAK_BADGES,
   applyAttempt,
+  applyCheckin,
+  cardTier,
   chapterRecord,
+  evaluateAchievements,
   formatPercent,
+  frameTier,
   isChapterUnlocked,
   isPass,
+  linkedQuestions,
+  noteAnswer,
+  personCorrectCount,
+  pickDailyQuestion,
   pickQuiz,
+  pickReview,
   presentQuestion,
   starsFor,
+  todayKey,
   totalStars,
+  visibleStreak,
 } from "./logic.js";
 import { clearProgress, loadProgress, loadSession, saveProgress, saveSession } from "./storage.js";
 import { renderQuestion } from "./quiz-view.js";
@@ -20,13 +33,16 @@ const DIFF_LABEL = { primary: "小学", junior: "初中" };
 let rules;
 let chapters = [];
 let characters = [];
+let stories = [];
 let questions = [];
 let progress;
 
+const TIER_LABEL = { bronze: "铜卡", silver: "银卡", gold: "金卡" };
 const app = document.getElementById("app");
 const cardDialog = el("dialog", { class: "sheet", id: "card-dialog" });
 const confirmDialog = el("dialog", { class: "sheet", id: "confirm-dialog" });
-document.body.append(cardDialog, confirmDialog);
+const awardDialog = el("dialog", { class: "sheet", id: "award-dialog" });
+document.body.append(cardDialog, confirmDialog, awardDialog);
 
 function loadJson(path) {
   return fetch(path).then((response) => {
@@ -133,7 +149,7 @@ function renderFatal(error) {
 function draw() {
   applyFont();
   const route = parseRoute();
-  if (!progress.difficulty && !["home", "atlas"].includes(route.name)) {
+  if (!progress.difficulty && !["home", "atlas", "wrong", "achieve"].includes(route.name)) {
     go("#/");
     return;
   }
@@ -144,13 +160,38 @@ function draw() {
   else if (route.name === "quiz") renderQuiz(route.arg);
   else if (route.name === "result") renderResult();
   else if (route.name === "atlas") renderAtlas();
+  else if (route.name === "daily") renderDaily();
+  else if (route.name === "wrong") renderWrong();
+  else if (route.name === "review") renderReview();
+  else if (route.name === "achieve") renderAchieve();
   else renderHome();
 }
 
 function renderHome() {
   const unlocked = characters.filter((person) => isChapterUnlocked(progress, person.chapterId)).length;
   const stars = progress.difficulty ? totalStars(progress, progress.difficulty) : 0;
+  const today = todayKey(new Date());
+  const streak = visibleStreak(progress.checkin, today);
+  const done = Boolean(progress.dailyDone[today]);
   shell([
+    el("section", { class: "daily-card" }, [
+      el("div", {}, [
+        el("p", { class: "eyebrow", text: "今日一题" }),
+        el("h2", { text: done ? "今天已经打卡" : "今天的题还在等你" }),
+        el("p", {
+          class: "lede",
+          text: progress.difficulty
+            ? `${DIFF_LABEL[progress.difficulty]}难度 · 连续打卡 ${streak} 天 · 最好 ${progress.checkin.best || 0} 天`
+            : "先选好难度，今天的题就会按日期定下来。",
+        }),
+        badgeRow(),
+      ]),
+      el("a", {
+        class: "btn btn-primary",
+        href: "#/daily",
+        text: done ? "看今天的讲解" : "去做今日一题",
+      }),
+    ]),
     el("section", { class: "hero" }, [
       seal("华", "#c23b2e"),
       el("div", {}, [
@@ -180,7 +221,11 @@ function renderHome() {
     el("ol", { class: "steps" }, [
       el("li", {}, [el("strong", { text: "选章节" }), el("span", { text: "九章都能点。星星记在这一章上。" })]),
       el("li", {}, [el("strong", { text: "答一关" }), el("span", { text: "单选、连连看、时间排序都会出现。" })]),
-      el("li", {}, [el("strong", { text: "收人物卡" }), el("span", { text: "正确率达到 60% 过关，100% 是三星。" })]),
+      el("li", {}, [el("strong", { text: "收人物卡" }), el("span", { text: "过关收录铜卡。答对关联题，可以升到银卡和金卡。" })]),
+    ]),
+    el("div", { class: "home-links" }, [
+      el("a", { class: "btn btn-ghost", href: "#/wrong", text: `错题本 ${Object.keys(progress.wrong).length}` }),
+      el("a", { class: "btn btn-ghost", href: "#/achieve", text: `我的成就 ${progress.achievements.length}/${ACHIEVEMENTS.length}` }),
     ]),
   ]);
 }
@@ -282,10 +327,69 @@ function renderChapter(id) {
   ]);
 }
 
+function personStats(person) {
+  const linked = linkedQuestions(questions, person.id).length;
+  const got = personCorrectCount(progress, person.id);
+  const goal = Math.min(5, linked || 5);
+  return {
+    linked,
+    got,
+    goal,
+    tier: cardTier(got, linked),
+    frame: frameTier(progress, person, linked),
+  };
+}
+
+function badgeRow() {
+  return el("div", { class: "badge-row" }, STREAK_BADGES.map((badge) => {
+    const on = (progress.checkin.best || 0) >= badge.days;
+    return el("span", {
+      class: on ? "badge is-on" : "badge",
+      text: on ? `${badge.name}徽章` : `${badge.days}天徽章`,
+    });
+  }));
+}
+
+function commitAnswer(question, correct, withCheckin) {
+  progress = noteAnswer(progress, question, correct);
+  if (withCheckin) {
+    progress = applyCheckin(progress, todayKey(new Date()), {
+      questionId: question.id,
+      correct,
+      difficulty: question.difficulty,
+    }).progress;
+  }
+  const judged = evaluateAchievements(progress, {
+    characters,
+    questions,
+    chapterIds: chapters.map((chapter) => chapter.id),
+    today: todayKey(new Date()),
+  });
+  progress = judged.progress;
+  persist();
+  if (judged.fresh.length) celebrate(judged.fresh);
+}
+
+function celebrate(ids) {
+  const items = ids.map((id) => ACHIEVEMENTS.find((item) => item.id === id)).filter(Boolean);
+  if (!items.length) return;
+  awardDialog.replaceChildren(
+    el("h2", { text: "获得成就" }),
+    el("ul", { class: "award-list" }, items.map((item) => el("li", {}, [
+      el("strong", { text: item.name }),
+      el("span", { text: item.detail }),
+    ]))),
+    el("button", { type: "button", class: "btn btn-primary", text: "收下", onClick: () => awardDialog.close() })
+  );
+  if (!awardDialog.open) awardDialog.showModal();
+}
+
 function personChip(person, unlocked) {
+  const stats = personStats(person);
+  const frame = unlocked ? stats.frame : "none";
   const button = el("button", {
     type: "button",
-    class: unlocked ? "person-chip" : "person-chip is-locked",
+    class: unlocked ? `person-chip tier-${frame}` : "person-chip is-locked",
     onClick: () => {
       if (unlocked) openCard(person.id);
       else say("过关后才能打开这张人物卡");
@@ -293,7 +397,7 @@ function personChip(person, unlocked) {
   });
   button.append(createAvatar(person, 72));
   button.append(el("span", { class: "person-name", text: person.name }));
-  button.append(el("span", { class: "meta", text: unlocked ? person.role : "过关后解锁" }));
+  button.append(el("span", { class: "meta", text: unlocked ? `${TIER_LABEL[frame]} ${stats.got}/${stats.goal}` : "过关后解锁" }));
   return button;
 }
 
@@ -365,6 +469,7 @@ function renderQuiz(chapterId) {
       latest.phase = "feedback";
       latest.feedback = { id: question.id, correct: payload.correct, detail: payload.detail };
       saveSession(rules.sessionKey, latest);
+      commitAnswer(question, payload.correct, false);
     },
     onNext: () => {
       const latest = loadSession(rules.sessionKey);
@@ -389,6 +494,13 @@ function finishRun(run) {
   const passed = isPass(correct, total, rules);
   const applied = applyAttempt(progress, run.chapterId, run.difficulty, { stars, correct, total, passed });
   progress = applied.progress;
+  const judged = evaluateAchievements(progress, {
+    characters,
+    questions,
+    chapterIds: chapters.map((chapter) => chapter.id),
+    today: todayKey(new Date()),
+  });
+  progress = judged.progress;
   persist();
   saveSession(rules.resultKey, {
     chapterId: run.chapterId,
@@ -402,6 +514,7 @@ function finishRun(run) {
     improved: applied.improved,
     questions: run.questions,
     answers: run.answers,
+    freshAchievements: judged.fresh,
   });
   saveSession(rules.sessionKey, null);
   go("#/result");
@@ -412,6 +525,12 @@ function renderResult() {
   if (!result) {
     shell([el("h1", { text: "还没有成绩" }), el("a", { class: "btn btn-primary", href: "#/map", text: "去时间长河" })]);
     return;
+  }
+  if (result.freshAchievements && result.freshAchievements.length) {
+    const fresh = result.freshAchievements.slice();
+    result.freshAchievements = [];
+    saveSession(rules.resultKey, result);
+    queueMicrotask(() => celebrate(fresh));
   }
   const chapter = chapterById(result.chapterId);
   const people = peopleOf(result.chapterId);
@@ -449,6 +568,221 @@ function renderResult() {
   ]);
 }
 
+function renderDaily() {
+  if (!progress.difficulty) {
+    shell([
+      el("h1", { text: "先选难度" }),
+      el("p", { class: "lede", text: "今日一题按难度从题库里定题。选好以后，同一天看到的是同一道。" }),
+      el("a", { class: "btn btn-primary", href: "#/", text: "回首页" }),
+    ]);
+    return;
+  }
+  const today = todayKey(new Date());
+  const done = progress.dailyDone[today];
+  const streak = visibleStreak(progress.checkin, today);
+  const stored = done ? questions.find((item) => item.id === done.questionId) : null;
+  const question = stored || pickDailyQuestion(questions, progress.difficulty, today);
+  if (!question) {
+    shell([el("h1", { text: "今天没有抽到题" }), el("a", { class: "btn btn-primary", href: "#/", text: "回首页" })]);
+    return;
+  }
+  const historic = question.anniversary === today.slice(5);
+  const replay = (() => {
+    const side = loadSession(rules.sideKey);
+    if (side && side.kind === "daily" && side.date === today && side.difficulty === progress.difficulty && side.feedback) return side;
+    return null;
+  })();
+  shell([
+    el("p", { class: "eyebrow", text: historic ? "历史上的今天" : `${DIFF_LABEL[progress.difficulty]}难度` }),
+    el("h1", { text: historic ? "历史上的今天" : "今日一题" }),
+    el("p", { class: "lede", text: `连续 ${streak} 天，最好 ${progress.checkin.best || 0} 天。答错也算打卡，一天只记第一次。` }),
+    badgeRow(),
+    el("div", { id: "question-slot" }),
+    done ? el("p", { class: "meta", text: done.correct ? "今天答对了。" : "今天这题答错了，已经放进错题本。" }) : null,
+  ]);
+  if (done) {
+    const slot = document.getElementById("question-slot");
+    if (replay) {
+      renderQuestion(slot, replay.question, {
+        index: 0,
+        total: 1,
+        isLast: true,
+        prior: replay.feedback,
+        nextLabel: "回首页",
+        onGraded: () => {},
+        onNext: () => go("#/"),
+      });
+    } else {
+      slot.append(el("article", { class: "question" }, [
+        el("h2", { class: "prompt", text: question.prompt }),
+        el("div", { class: done.correct ? "feedback is-right" : "feedback is-wrong" }, [
+          el("p", { class: "feedback-title", text: done.correct ? "答对了" : "这题再看看" }),
+          el("p", { class: "explain", text: question.explain }),
+          el("p", { class: "source", text: `来源：${question.source}` }),
+        ]),
+        el("button", { type: "button", class: "btn btn-primary", text: "回首页", onClick: () => go("#/") }),
+      ]));
+    }
+    return;
+  }
+  let side = loadSession(rules.sideKey);
+  if (!side || side.kind !== "daily" || side.date !== today || side.difficulty !== progress.difficulty) {
+    side = {
+      kind: "daily",
+      date: today,
+      difficulty: progress.difficulty,
+      question: presentQuestion(question),
+      phase: "ask",
+      feedback: null,
+    };
+    saveSession(rules.sideKey, side);
+  }
+  renderQuestion(document.getElementById("question-slot"), side.question, {
+    index: 0,
+    total: 1,
+    isLast: true,
+    prior: side.phase === "feedback" ? side.feedback : null,
+    nextLabel: "回首页",
+    onGraded: (payload) => {
+      const latest = loadSession(rules.sideKey);
+      if (!latest || latest.phase === "feedback" || progress.dailyDone[today]) return;
+      latest.phase = "feedback";
+      latest.feedback = { id: latest.question.id, correct: payload.correct, detail: payload.detail };
+      saveSession(rules.sideKey, latest);
+      commitAnswer(latest.question, payload.correct, true);
+    },
+    onNext: () => go("#/"),
+  });
+}
+
+function startReview(list) {
+  if (!list.length) return;
+  saveSession(rules.sideKey, {
+    kind: "review",
+    questions: list.map((item) => presentQuestion(item)),
+    index: 0,
+    phase: "ask",
+    answers: [],
+    feedback: null,
+  });
+  go("#/review");
+}
+
+function renderWrong() {
+  const ids = Object.keys(progress.wrong);
+  const groups = chapters.map((chapter) => ({
+    chapter,
+    items: ids
+      .map((id) => ({ id, info: progress.wrong[id], question: questions.find((item) => item.id === id) }))
+      .filter((row) => row.question && row.question.chapterId === chapter.id),
+  })).filter((group) => group.items.length);
+  shell([
+    el("h1", { text: "错题本" }),
+    el("p", { class: "lede", text: `还没收下的错题 ${ids.length} 道，累计已掌握 ${progress.mastered} 道。答对一次就会移出，并记入已掌握。` }),
+    el("div", { class: "action-row" }, [
+      el("button", {
+        type: "button",
+        class: "btn btn-primary",
+        "data-action": "review-all",
+        disabled: ids.length ? false : "disabled",
+        text: ids.length ? `全部再挑战（${Math.min(10, ids.length)}题）` : "全部再挑战",
+        onClick: () => startReview(pickReview(progress.wrong, questions, 10)),
+      }),
+      el("a", { class: "btn btn-ghost", href: "#/", text: "回首页" }),
+    ]),
+    ids.length === 0 ? el("p", { class: "empty", text: "错题本是空的。闯关或每日一题里答错的题，会出现在这里。" }) : null,
+    ...groups.map((group) => el("section", { class: "atlas-chapter" }, [
+      el("h2", { text: group.chapter.name }),
+      el("ul", { class: "wrong-list" }, group.items.map((row) => el("li", { class: "wrong-item" }, [
+        el("div", {}, [
+          el("p", { text: row.question.prompt }),
+          el("p", { class: "meta", text: `${DIFF_LABEL[row.info.difficulty] || ""} · 错过 ${row.info.misses} 次` }),
+        ]),
+        el("button", {
+          type: "button",
+          class: "btn btn-ghost",
+          text: "再做这题",
+          onClick: () => startReview([row.question]),
+        }),
+      ]))),
+    ])),
+  ]);
+}
+
+function renderReview() {
+  const run = loadSession(rules.sideKey);
+  if (!run || run.kind !== "review") {
+    shell([
+      el("h1", { text: "还没有再挑战" }),
+      el("a", { class: "btn btn-primary", href: "#/wrong", text: "回错题本" }),
+    ]);
+    return;
+  }
+  if (run.index >= run.questions.length) {
+    const correct = run.answers.filter((item) => item.correct).length;
+    shell([
+      el("p", { class: "eyebrow", text: "错题本" }),
+      el("h1", { text: "再挑战结束" }),
+      el("p", { class: "score-num", text: `${correct}/${run.questions.length}` }),
+      el("p", { class: "lede", text: "答对的题已经移出错题本。这次不记星星，也不改变章节成绩。" }),
+      el("a", { class: "btn btn-primary", href: "#/wrong", text: "回错题本" }),
+    ]);
+    return;
+  }
+  const question = run.questions[run.index];
+  shell([
+    el("div", { class: "quiz-head" }, [
+      el("div", {}, [
+        el("p", { class: "eyebrow", text: "错题再挑战" }),
+        el("h1", { text: "再做一次" }),
+      ]),
+      el("a", { class: "btn btn-ghost", href: "#/wrong", text: "离开" }),
+    ]),
+    el("div", { id: "question-slot" }),
+  ]);
+  renderQuestion(document.getElementById("question-slot"), question, {
+    index: run.index,
+    total: run.questions.length,
+    isLast: run.index === run.questions.length - 1,
+    prior: run.phase === "feedback" && run.feedback && run.feedback.id === question.id ? run.feedback : null,
+    nextLabel: run.index === run.questions.length - 1 ? "看结果" : "下一题",
+    onGraded: (payload) => {
+      const latest = loadSession(rules.sideKey);
+      if (!latest || latest.phase === "feedback") return;
+      latest.answers.push({ id: question.id, correct: payload.correct, detail: payload.detail });
+      latest.phase = "feedback";
+      latest.feedback = { id: question.id, correct: payload.correct, detail: payload.detail };
+      saveSession(rules.sideKey, latest);
+      commitAnswer(question, payload.correct, false);
+    },
+    onNext: () => {
+      const latest = loadSession(rules.sideKey);
+      if (!latest) return;
+      latest.index += 1;
+      latest.phase = "ask";
+      latest.feedback = null;
+      saveSession(rules.sideKey, latest);
+      draw();
+    },
+  });
+}
+
+function renderAchieve() {
+  const got = progress.achievements.length;
+  shell([
+    el("h1", { text: "我的成就" }),
+    el("p", { class: "lede", text: got ? `已经获得 ${got} / ${ACHIEVEMENTS.length} 个。没点亮的，下面写着条件。` : "成就还是空的。闯关、打卡、订正错题，都会慢慢点亮。" }),
+    el("ul", { class: "achieve-list" }, ACHIEVEMENTS.map((item) => {
+      const on = progress.achievements.includes(item.id);
+      return el("li", { class: on ? "achieve is-on" : "achieve" }, [
+        el("strong", { text: item.name }),
+        el("span", { text: on ? "已获得" : item.detail }),
+      ]);
+    })),
+    el("a", { class: "btn btn-ghost", href: "#/", text: "回首页" }),
+  ]);
+}
+
 function renderAtlas() {
   const unlockedPeople = characters.filter((person) => isChapterUnlocked(progress, person.chapterId));
   const stars = progress.difficulty ? totalStars(progress, progress.difficulty) : 0;
@@ -456,14 +790,14 @@ function renderAtlas() {
     el("div", { class: "page-head" }, [
       el("div", {}, [
         el("h1", { text: "我的图鉴" }),
-        el("p", { class: "lede", text: `已收集 ${unlockedPeople.length}/${characters.length} 张人物卡${progress.difficulty ? ` · ${DIFF_LABEL[progress.difficulty]}星星 ${stars}/27` : ""}。` }),
+        el("p", { class: "lede", text: `已收集 ${unlockedPeople.length}/${characters.length} 张人物卡。过关是铜卡，关联题答对 3 道升银卡，答对 5 道或全部升金卡。${progress.difficulty ? `${DIFF_LABEL[progress.difficulty]}星星 ${stars}/27。` : ""}` }),
       ]),
       el("button", {
         type: "button",
         class: "btn btn-ghost",
         "data-action": "reset",
         text: "重置进度",
-        onClick: () => askConfirm("重置后，这台设备上的星星和人物卡都会清空。不会上传任何信息。", resetProgress),
+        onClick: () => askConfirm("重置后，这台设备上的星星、人物卡、打卡、错题本和成就都会清空。不会上传任何信息。", resetProgress),
       }),
     ]),
     unlockedPeople.length === 0
@@ -489,11 +823,14 @@ function renderAtlas() {
 function openCard(id) {
   const person = characters.find((item) => item.id === id);
   if (!person || !isChapterUnlocked(progress, person.chapterId)) return;
+  const stats = personStats(person);
+  const story = stats.tier === "gold" ? stories.find((item) => item.id === person.id) : null;
   cardDialog.replaceChildren(
     el("div", { class: "card-top" }, [
       createAvatar(person, 96),
       el("div", {}, [
         el("h2", { id: "card-title", text: person.name }),
+        el("p", { class: `tier-line tier-${stats.frame}`, text: `${TIER_LABEL[stats.frame]} ${stats.got}/${stats.goal}` }),
         el("p", { class: "meta", text: `${person.dynasty} · ${person.years}` }),
         el("p", { class: "role", text: person.role }),
       ]),
@@ -503,6 +840,11 @@ function openCard(id) {
       el("p", { text: person.quote }),
       person.quoteFrom ? el("cite", { text: person.quoteFrom }) : null,
     ]) : null,
+    story ? el("div", { class: "story" }, [
+      el("h3", { text: "小故事" }),
+      el("p", { text: story.text }),
+      el("p", { class: "source", text: `来源：${story.source}` }),
+    ]) : el("p", { class: "hint", text: "再答对关联题，银卡和金卡会升级。金卡打开后可以读一小段故事。" }),
     el("p", { class: "source", text: `来源：${person.source}` }),
     el("button", { type: "button", class: "btn btn-primary", text: "合上卡片", onClick: () => cardDialog.close() })
   );
@@ -532,6 +874,7 @@ function askConfirm(message, onYes) {
 
 function resetProgress() {
   clearProgress(rules.storageKey, rules.sessionKey, rules.resultKey);
+  saveSession(rules.sideKey, null);
   progress = loadProgress(rules.storageKey);
   applyFont();
   say("进度已重置");
@@ -540,17 +883,26 @@ function resetProgress() {
 
 async function boot() {
   try {
-    const [ruleDoc, chapterDoc, characterDoc] = await Promise.all([
+    const [ruleDoc, chapterDoc, characterDoc, storyDoc] = await Promise.all([
       loadJson("data/rules.json"),
       loadJson("data/chapters.json"),
       loadJson("data/characters.json"),
+      loadJson("data/stories.json"),
     ]);
     rules = ruleDoc;
     chapters = chapterDoc.chapters;
     characters = characterDoc.characters;
+    stories = storyDoc.stories;
     const packs = await Promise.all(chapters.map((chapter) => loadJson(`data/questions/${chapter.id}.json`)));
     questions = packs.flatMap((pack) => pack.questions);
     progress = loadProgress(rules.storageKey);
+    progress = evaluateAchievements(progress, {
+      characters,
+      questions,
+      chapterIds: chapters.map((chapter) => chapter.id),
+      today: todayKey(new Date()),
+    }).progress;
+    persist();
     window.addEventListener("hashchange", draw);
     draw();
   } catch (error) {
