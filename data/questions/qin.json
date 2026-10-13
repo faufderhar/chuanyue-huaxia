@@ -1,0 +1,487 @@
+{
+  "chapterId": "qin",
+  "questions": [
+    {
+      "id": "qin-p-c1",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "秦始皇在哪一年统一六国，建立秦朝？",
+      "options": [
+        "公元前221年",
+        "公元前207年",
+        "公元221年",
+        "公元前1046年"
+      ],
+      "answer": 0,
+      "explain": "公元前221年，秦王嬴政完成统一，建立秦朝，定都咸阳。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-p-c2",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "秦朝的都城在哪里？",
+      "options": [
+        "咸阳",
+        "长安",
+        "洛阳",
+        "大都"
+      ],
+      "answer": 0,
+      "explain": "秦朝定都咸阳。长安是西汉都城，大都是元朝都城。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-p-c3",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "蒙恬的主要事迹是什么？",
+      "options": [
+        "北击匈奴，主持修筑长城",
+        "出使西域",
+        "改进造纸术",
+        "七次下西洋"
+      ],
+      "answer": 0,
+      "explain": "秦始皇派蒙恬北击匈奴，并主持把北方长城连接、修筑起来。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-p-c4",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "陈胜、吴广在哪里发动起义？",
+      "options": [
+        "大泽乡",
+        "咸阳宫",
+        "巨鹿",
+        "虎门"
+      ],
+      "answer": 0,
+      "explain": "公元前209年，陈胜、吴广在大泽乡发动起义，掀起了反秦风暴。",
+      "source": "统编《中国历史》七年级上册 · 第10课 秦末农民大起义"
+    },
+    {
+      "id": "qin-p-c5",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "秦始皇统一文字，主要是为了什么？",
+      "options": [
+        "方便各地书写和交流政令",
+        "让每个人都去当诗人",
+        "取消所有学校",
+        "改用英文"
+      ],
+      "answer": 0,
+      "explain": "秦朝把文字统一为小篆，政令可以在全国顺畅传达，也有利于文化交流。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-p-c6",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "秦朝为什么很快就灭亡了？",
+      "options": [
+        "赋税和徭役太重，失去民心",
+        "因为没有修建道路",
+        "因为没有都城",
+        "因为孔子反对统一"
+      ],
+      "answer": 0,
+      "explain": "秦朝完成了统一，但徭役、赋税沉重，暴政使它失去民心，公元前207年灭亡。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国；第10课 秦末农民大起义"
+    },
+    {
+      "id": "qin-p-m1",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和事迹连起来。",
+      "pairs": [
+        {
+          "id": "qsh",
+          "left": "秦始皇",
+          "right": "公元前221年统一六国，建立秦朝"
+        },
+        {
+          "id": "mt",
+          "left": "蒙恬",
+          "right": "北击匈奴，主持修筑长城"
+        },
+        {
+          "id": "cs",
+          "left": "陈胜",
+          "right": "在大泽乡发动反秦起义"
+        }
+      ],
+      "explain": "秦始皇完成统一，蒙恬负责北方军务和长城，陈胜则发动了秦末农民起义。",
+      "source": "统编《中国历史》七年级上册 · 第9课；第10课"
+    },
+    {
+      "id": "qin-p-m2",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和对应的说法连起来。",
+      "pairs": [
+        {
+          "id": "qsh2",
+          "left": "秦始皇",
+          "right": "统一货币和度量衡"
+        },
+        {
+          "id": "mt2",
+          "left": "蒙恬",
+          "right": "秦长城西起临洮、东到辽东"
+        },
+        {
+          "id": "cs2",
+          "left": "陈胜",
+          "right": "王侯将相宁有种乎"
+        }
+      ],
+      "explain": "统一度量衡是秦始皇的措施；长城起止是蒙恬主持修筑时的秦长城；那句口号出自陈胜。",
+      "source": "统编《中国历史》七年级上册 · 第9课；第10课"
+    },
+    {
+      "id": "qin-p-o1",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "unify",
+          "text": "秦统一六国，建立秦朝"
+        },
+        {
+          "id": "uprising",
+          "text": "陈胜、吴广在大泽乡起义"
+        },
+        {
+          "id": "fall",
+          "text": "秦朝灭亡"
+        }
+      ],
+      "answer": [
+        "unify",
+        "uprising",
+        "fall"
+      ],
+      "explain": "公元前221年秦朝建立，公元前209年大泽乡起义，公元前207年秦朝灭亡。",
+      "source": "统编《中国历史》七年级上册 · 第9课；第10课"
+    },
+    {
+      "id": "qin-p-o2",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "king",
+          "text": "嬴政成为秦王"
+        },
+        {
+          "id": "emperor",
+          "text": "嬴政称始皇帝，定都咸阳"
+        },
+        {
+          "id": "wall",
+          "text": "蒙恬北击匈奴、修筑长城"
+        }
+      ],
+      "answer": [
+        "king",
+        "emperor",
+        "wall"
+      ],
+      "explain": "嬴政先是秦王，公元前221年统一后称始皇帝；北击匈奴和修长城是统一之后的举措。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-j-c1",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "秦朝在地方上推行的制度是什么？",
+      "options": [
+        "郡县制",
+        "分封制",
+        "行省制",
+        "科举制"
+      ],
+      "answer": 0,
+      "explain": "秦朝废除分封，在全国推行郡县制，郡县长官由朝廷直接任免，加强了中央集权。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-j-c2",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "秦朝把哪一种字体作为标准文字推行全国？",
+      "options": [
+        "小篆",
+        "甲骨文",
+        "楷书",
+        "简化字"
+      ],
+      "answer": 0,
+      "explain": "秦始皇命李斯等整理文字，以小篆作为标准文字通行全国。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-j-c3",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "秦朝统一后的货币，外形主要是怎样的？",
+      "options": [
+        "圆形方孔铜钱",
+        "只有贝壳",
+        "纸币交子",
+        "银元"
+      ],
+      "answer": 0,
+      "explain": "秦朝统一货币为圆形方孔铜钱，同时统一度量衡，便利了各地经济往来。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-j-c4",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "灵渠连接的是哪两大水系？",
+      "options": [
+        "长江水系和珠江水系",
+        "黄河和辽河",
+        "海河和钱塘江",
+        "塔里木河和珠江"
+      ],
+      "answer": 0,
+      "explain": "秦始皇派人开凿灵渠，沟通了长江水系和珠江水系，便利了南方转运。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-j-c5",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "秦始皇焚书的主要目的是什么？结果如何？",
+      "options": [
+        "加强思想控制，给文化造成严重损失",
+        "推广私学，鼓励百家争鸣",
+        "把医书和农书全部毁掉",
+        "发明造纸术"
+      ],
+      "answer": 0,
+      "explain": "为了加强思想控制，秦始皇采纳焚书的建议，限制人们议论朝政，给先秦文化造成严重损失。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-j-c6",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "秦朝在哪一年灭亡？",
+      "options": [
+        "公元前207年",
+        "公元前221年",
+        "公元前202年",
+        "公元220年"
+      ],
+      "answer": 0,
+      "explain": "陈胜、吴广起义后，反秦势力不断发展。公元前207年，秦朝灭亡。",
+      "source": "统编《中国历史》七年级上册 · 第10课 秦末农民大起义"
+    },
+    {
+      "id": "qin-j-m1",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和制度或行动连起来。",
+      "pairs": [
+        {
+          "id": "qshj",
+          "left": "秦始皇",
+          "right": "确立皇帝制度，地方推行郡县制"
+        },
+        {
+          "id": "mtj",
+          "left": "蒙恬",
+          "right": "北击匈奴，长城西起临洮、东至辽东"
+        },
+        {
+          "id": "csj",
+          "left": "陈胜",
+          "right": "公元前209年在大泽乡起义"
+        }
+      ],
+      "explain": "皇帝制度和郡县制属于秦始皇建立的中央集权；蒙恬负责北边；陈胜领导了大泽乡起义。",
+      "source": "统编《中国历史》七年级上册 · 第9课；第10课"
+    },
+    {
+      "id": "qin-j-m2",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和另一组成就连起来。",
+      "pairs": [
+        {
+          "id": "wen",
+          "left": "秦始皇",
+          "right": "统一文字、货币和度量衡"
+        },
+        {
+          "id": "bi",
+          "left": "蒙恬",
+          "right": "率军北击匈奴"
+        },
+        {
+          "id": "jun",
+          "left": "陈胜",
+          "right": "提出“王侯将相宁有种乎”"
+        }
+      ],
+      "explain": "统一度量衡是秦始皇的措施；蒙恬负责北击匈奴；那句口号出自陈胜。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-j-o1",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "found",
+          "text": "建立秦朝，推行郡县制"
+        },
+        {
+          "id": "books",
+          "text": "秦始皇下令焚书"
+        },
+        {
+          "id": "daze",
+          "text": "陈胜、吴广起义"
+        },
+        {
+          "id": "end",
+          "text": "秦朝灭亡"
+        }
+      ],
+      "answer": [
+        "found",
+        "books",
+        "daze",
+        "end"
+      ],
+      "explain": "公元前221年秦朝建立，其后加强思想控制并焚书，公元前209年大泽乡起义，公元前207年秦朝灭亡。",
+      "source": "统编《中国历史》七年级上册 · 第9课；第10课"
+    },
+    {
+      "id": "qin-j-o2",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列秦朝这些举措。",
+      "items": [
+        {
+          "id": "title",
+          "text": "嬴政称始皇帝"
+        },
+        {
+          "id": "north",
+          "text": "蒙恬北击匈奴、修筑长城"
+        },
+        {
+          "id": "rise",
+          "text": "陈胜、吴广起义"
+        },
+        {
+          "id": "qinend",
+          "text": "秦朝灭亡"
+        }
+      ],
+      "answer": [
+        "title",
+        "north",
+        "rise",
+        "qinend"
+      ],
+      "explain": "公元前221年嬴政称始皇帝，之后蒙恬北击匈奴并修长城，公元前209年陈胜、吴广起义，公元前207年秦朝灭亡。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-p-c7",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "秦朝为什么要统一货币和度量衡？",
+      "options": [
+        "方便各地买卖、比较数量和缴纳赋税",
+        "为了停止农业生产",
+        "为了取消全国的文字",
+        "为了把都城迁到大都"
+      ],
+      "answer": 0,
+      "explain": "统一成圆形方孔铜钱，并规定统一的长度、容量和重量以后，各地买卖和收税就有了同一套标准。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-p-c8",
+      "chapterId": "qin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "项羽在巨鹿之战中打败的是谁的军队？",
+      "options": [
+        "秦军主力",
+        "蒙古骑兵",
+        "东南沿海的倭寇",
+        "英国军队"
+      ],
+      "answer": 0,
+      "explain": "陈胜、吴广起义之后，项羽在巨鹿之战中打败秦军主力，秦的统治更加摇摇欲坠。",
+      "source": "统编《中国历史》七年级上册 · 第10课 秦末农民大起义"
+    },
+    {
+      "id": "qin-j-c7",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "秦朝中央的“三公”是哪三个官职？",
+      "options": [
+        "丞相、太尉、御史大夫",
+        "皇帝、诸侯、县令",
+        "行省、宣政院、巡检司",
+        "内阁、军机处、六部"
+      ],
+      "answer": 0,
+      "explain": "丞相管行政，太尉管军事，御史大夫管监察。三公互不统属，军政大权最终都集中到皇帝手里。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    },
+    {
+      "id": "qin-j-c8",
+      "chapterId": "qin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "秦朝万里长城的大致起止是哪里？",
+      "options": [
+        "西起临洮，东到辽东",
+        "北抵涿郡，南至余杭",
+        "东起鸭绿江，西至嘉峪关",
+        "西起长安，东到洛阳"
+      ],
+      "answer": 0,
+      "explain": "秦始皇派蒙恬北击匈奴，并把战国长城连接起来。秦长城西起临洮，东到辽东。明长城的起止与此不同。",
+      "source": "统编《中国历史》七年级上册 · 第9课 秦统一中国"
+    }
+  ]
+}

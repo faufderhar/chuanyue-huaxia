@@ -1,0 +1,487 @@
+{
+  "chapterId": "suitang",
+  "questions": [
+    {
+      "id": "suitang-p-c1",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "唐太宗的年号是什么？这段治理后来被称为什么？",
+      "options": [
+        "贞观，贞观之治",
+        "开元，开元盛世",
+        "洪武，明朝",
+        "康熙，清朝"
+      ],
+      "answer": 0,
+      "explain": "626年李世民即位，年号贞观。他在位时政治比较清明，史称贞观之治。",
+      "source": "统编《中国历史》七年级下册 · 第2课 唐朝建立与“贞观之治”"
+    },
+    {
+      "id": "suitang-p-c2",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "武则天在历史上最特殊的身份是什么？",
+      "options": [
+        "中国历史上唯一的女皇帝",
+        "元朝的建立者",
+        "抗倭将领",
+        "造纸术的改进者"
+      ],
+      "answer": 0,
+      "explain": "690年武则天称帝，改国号为周。她是中国历史上唯一的女皇帝。",
+      "source": "统编《中国历史》七年级下册 · 第2课 唐朝建立与“贞观之治”"
+    },
+    {
+      "id": "suitang-p-c3",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "“诗仙”和“诗圣”分别是谁？",
+      "options": [
+        "李白，杜甫",
+        "杜甫，李白",
+        "苏轼，李清照",
+        "屈原，孔子"
+      ],
+      "answer": 0,
+      "explain": "李白有诗仙之称，杜甫有诗圣之称。杜甫的诗反映了唐朝由盛转衰时的社会现实。",
+      "source": "统编《中国历史》七年级下册 · 第7课 隋唐时期的科技与文化"
+    },
+    {
+      "id": "suitang-p-c4",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "隋朝大运河主要起到什么作用？",
+      "options": [
+        "加强南北交通和各地交流",
+        "只用来防守海边",
+        "代替所有陆路",
+        "连接欧洲"
+      ],
+      "answer": 0,
+      "explain": "大运河以洛阳为中心，连接南北，加强了政治、经济和文化交流。",
+      "source": "统编《中国历史》七年级下册 · 第1课 隋朝统一与灭亡"
+    },
+    {
+      "id": "suitang-p-c5",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "文成公主入藏，主要促进了哪两边的交往？",
+      "options": [
+        "唐朝和吐蕃",
+        "宋朝和金朝",
+        "明朝和倭寇",
+        "秦朝和匈奴"
+      ],
+      "answer": 0,
+      "explain": "641年文成公主入藏，嫁给松赞干布，促进了吐蕃经济文化发展和唐蕃友好。",
+      "source": "统编《中国历史》七年级下册 · 第5课 隋唐时期的民族交往与交融"
+    },
+    {
+      "id": "suitang-p-c6",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "唐朝的都城在哪里？",
+      "options": [
+        "长安",
+        "大都",
+        "临安",
+        "建业"
+      ],
+      "answer": 0,
+      "explain": "618年李渊建立唐朝，定都长安。长安是当时的国际大都市。",
+      "source": "统编《中国历史》七年级下册 · 第2课 唐朝建立与“贞观之治”"
+    },
+    {
+      "id": "suitang-p-m1",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和称号或事迹连起来。",
+      "pairs": [
+        {
+          "id": "ttz",
+          "left": "唐太宗",
+          "right": "开创贞观之治"
+        },
+        {
+          "id": "wzt",
+          "left": "武则天",
+          "right": "中国历史上唯一的女皇帝"
+        },
+        {
+          "id": "lbai",
+          "left": "李白",
+          "right": "被称为诗仙"
+        }
+      ],
+      "explain": "贞观之治对应唐太宗，女皇帝是武则天，诗仙是李白。",
+      "source": "统编《中国历史》七年级下册 · 第2课；第7课"
+    },
+    {
+      "id": "suitang-p-m2",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和句子或做法连起来。",
+      "pairs": [
+        {
+          "id": "df",
+          "left": "杜甫",
+          "right": "会当凌绝顶，一览众山小"
+        },
+        {
+          "id": "ttz2",
+          "left": "唐太宗",
+          "right": "把善于进谏的魏征比作镜子"
+        },
+        {
+          "id": "wzt2",
+          "left": "武则天",
+          "right": "发展科举，创立殿试"
+        }
+      ],
+      "explain": "诗句出自杜甫；唐太宗纳谏，魏征是他的一面镜子；武则天创立殿试，继续发展科举。",
+      "source": "统编《中国历史》七年级下册 · 第2课；第7课"
+    },
+    {
+      "id": "suitang-p-o1",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "sui",
+          "text": "隋朝统一南北"
+        },
+        {
+          "id": "tang",
+          "text": "李渊建立唐朝"
+        },
+        {
+          "id": "zhen",
+          "text": "贞观之治"
+        }
+      ],
+      "answer": [
+        "sui",
+        "tang",
+        "zhen"
+      ],
+      "explain": "589年隋朝完成统一，618年唐朝建立，626年以后出现贞观之治。",
+      "source": "统编《中国历史》七年级下册 · 第1课；第2课"
+    },
+    {
+      "id": "suitang-p-o2",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "zg",
+          "text": "贞观之治"
+        },
+        {
+          "id": "wu",
+          "text": "武则天称帝"
+        },
+        {
+          "id": "kai",
+          "text": "开元盛世"
+        }
+      ],
+      "answer": [
+        "zg",
+        "wu",
+        "kai"
+      ],
+      "explain": "先有唐太宗的贞观之治，690年武则天称帝，后来唐玄宗前期出现开元盛世。",
+      "source": "统编《中国历史》七年级下册 · 第2课；第3课 “开元盛世”"
+    },
+    {
+      "id": "suitang-j-c1",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "隋朝于哪一年建立，又在哪一年灭陈、统一南北？",
+      "options": [
+        "581年建立，589年统一",
+        "618年建立，626年统一",
+        "960年建立，1127年统一",
+        "1368年建立，1405年统一"
+      ],
+      "answer": 0,
+      "explain": "581年杨坚建立隋朝，他就是隋文帝；589年隋军灭陈，结束长期分裂。",
+      "source": "统编《中国历史》七年级下册 · 第1课 隋朝统一与灭亡"
+    },
+    {
+      "id": "suitang-j-c2",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "隋朝大运河的中心和南北端点是哪里？",
+      "options": [
+        "以洛阳为中心，北抵涿郡，南至余杭",
+        "以长安为中心，北到蒙古，南到海南",
+        "以开封为中心，只连通黄河",
+        "以大都为中心，通往西域"
+      ],
+      "answer": 0,
+      "explain": "大运河以洛阳为中心，北抵涿郡，南至余杭，连接海河、黄河、淮河、长江和钱塘江。",
+      "source": "统编《中国历史》七年级下册 · 第1课 隋朝统一与灭亡"
+    },
+    {
+      "id": "suitang-j-c3",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "科举制度正式创立的标志是什么？",
+      "options": [
+        "隋炀帝时设置进士科",
+        "唐太宗创立殿试",
+        "明朝开始考八股文",
+        "汉武帝独尊儒术"
+      ],
+      "answer": 0,
+      "explain": "隋炀帝设置进士科，标志着通过考试选拔官员的科举制度创立。殿试是后来武则天创立的。",
+      "source": "统编《中国历史》七年级下册 · 第1课 隋朝统一与灭亡"
+    },
+    {
+      "id": "suitang-j-c4",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "武则天称帝后改国号为什么？她在科举上的创举是什么？",
+      "options": [
+        "改国号为周，创立殿试",
+        "改国号为元，创立行省",
+        "改国号为汉，废除科举",
+        "改国号为清，设立军机处"
+      ],
+      "answer": 0,
+      "explain": "690年武则天称帝，改国号为周，史称武周。她大力发展科举，并创立殿试。",
+      "source": "统编《中国历史》七年级下册 · 第2课 唐朝建立与“贞观之治”"
+    },
+    {
+      "id": "suitang-j-c5",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "安史之乱开始于哪一年？它对唐朝的主要影响是什么？",
+      "options": [
+        "755年，唐朝由盛转衰",
+        "618年，唐朝因此建立",
+        "1271年，元朝因此建立",
+        "1840年，鸦片战争爆发"
+      ],
+      "answer": 0,
+      "explain": "755年安禄山、史思明起兵，763年叛乱被平定。安史之乱使唐朝由盛转衰。",
+      "source": "统编《中国历史》七年级下册 · 第4课 安史之乱与唐朝衰亡"
+    },
+    {
+      "id": "suitang-j-c6",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "玄奘西行的主要成果，哪一项符合教材？",
+      "options": [
+        "前往天竺取经，弟子记录成《大唐西域记》",
+        "七次下西洋",
+        "编成《授时历》",
+        "主持虎门销烟"
+      ],
+      "answer": 0,
+      "explain": "贞观初年玄奘西行天竺取经。《大唐西域记》由弟子记录，是研究中外交流的重要文献。",
+      "source": "统编《中国历史》七年级下册 · 第6课 隋唐时期的中外文化交流"
+    },
+    {
+      "id": "suitang-j-m1",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和评价连起来。",
+      "pairs": [
+        {
+          "id": "ttzj",
+          "left": "唐太宗",
+          "right": "虚心纳谏，政治比较清明"
+        },
+        {
+          "id": "wztj",
+          "left": "武则天",
+          "right": "创立殿试，为开元盛世奠基"
+        },
+        {
+          "id": "dfj",
+          "left": "杜甫",
+          "right": "诗作被称为诗史"
+        }
+      ],
+      "explain": "贞观之治重在纳谏与休养生息；武则天的治理连接了贞观和开元；杜甫被称作诗圣，作品有诗史之称。",
+      "source": "统编《中国历史》七年级下册 · 第2课；第7课"
+    },
+    {
+      "id": "suitang-j-m2",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和对外交流的事迹连起来。",
+      "pairs": [
+        {
+          "id": "xuanzang",
+          "left": "玄奘",
+          "right": "西行天竺取经"
+        },
+        {
+          "id": "jianzhen",
+          "left": "鉴真",
+          "right": "东渡日本，传播唐朝文化"
+        },
+        {
+          "id": "wencheng",
+          "left": "文成公主",
+          "right": "641年入藏，促进唐蕃交往"
+        }
+      ],
+      "explain": "玄奘走向天竺，鉴真东渡日本，文成公主入藏，都是隋唐开放交流的例子。",
+      "source": "统编《中国历史》七年级下册 · 第5课；第6课"
+    },
+    {
+      "id": "suitang-j-o1",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "unify",
+          "text": "隋朝灭陈，统一南北"
+        },
+        {
+          "id": "canal",
+          "text": "开通以洛阳为中心的大运河"
+        },
+        {
+          "id": "tangfound",
+          "text": "李渊建立唐朝"
+        },
+        {
+          "id": "zhenguan",
+          "text": "贞观之治"
+        }
+      ],
+      "answer": [
+        "unify",
+        "canal",
+        "tangfound",
+        "zhenguan"
+      ],
+      "explain": "589年隋统一，605年起开凿大运河，618年唐朝建立，626年李世民即位后出现贞观之治。",
+      "source": "统编《中国历史》七年级下册 · 第1课；第2课"
+    },
+    {
+      "id": "suitang-j-o2",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "zhen2",
+          "text": "贞观之治"
+        },
+        {
+          "id": "wuzhou",
+          "text": "武则天称帝，改国号为周"
+        },
+        {
+          "id": "kaiyuan",
+          "text": "开元盛世"
+        },
+        {
+          "id": "anshi",
+          "text": "安史之乱爆发"
+        }
+      ],
+      "answer": [
+        "zhen2",
+        "wuzhou",
+        "kaiyuan",
+        "anshi"
+      ],
+      "explain": "顺序是唐太宗时期、690年武周、唐玄宗开元年间、755年安史之乱。安史之乱后唐朝由盛转衰。",
+      "source": "统编《中国历史》七年级下册 · 第2课；第3课；第4课"
+    },
+    {
+      "id": "suitang-p-c7",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "赵州桥是谁设计的，建于哪个朝代？",
+      "options": [
+        "李春设计，建于隋朝",
+        "李冰设计，建于秦朝",
+        "蔡伦设计，建于东汉",
+        "郭守敬设计，建于元朝"
+      ],
+      "answer": 0,
+      "explain": "隋朝工匠李春设计建造赵州桥。它是现存世界上最古老的石拱桥之一，到现在还能使用。",
+      "source": "统编《中国历史》七年级下册 · 第7课 隋唐时期的科技与文化"
+    },
+    {
+      "id": "suitang-p-c8",
+      "chapterId": "suitang",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "杜甫为什么被人们称作“诗圣”？",
+      "options": [
+        "他的诗写出了唐朝由盛转衰时的社会现实",
+        "他主持修建了京张铁路",
+        "他创立了行省制",
+        "他是元朝的开国皇帝"
+      ],
+      "answer": 0,
+      "explain": "杜甫生活在唐朝由盛转衰的年代，诗歌反映社会现实，后人称他为“诗圣”，称他的诗为“诗史”。",
+      "source": "统编《中国历史》七年级下册 · 第7课 隋唐时期的科技与文化"
+    },
+    {
+      "id": "suitang-j-c7",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "“开元盛世”出现在哪位皇帝前期？",
+      "options": [
+        "唐玄宗",
+        "唐太宗",
+        "隋炀帝",
+        "宋太祖"
+      ],
+      "answer": 0,
+      "explain": "唐玄宗前期年号开元，政治比较安定，经济繁荣，史称开元盛世。后来的安史之乱使唐朝由盛转衰。",
+      "source": "统编《中国历史》七年级下册 · 第3课 “开元盛世”"
+    },
+    {
+      "id": "suitang-j-c8",
+      "chapterId": "suitang",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "文成公主入藏，嫁给了哪位吐蕃赞普？",
+      "options": [
+        "松赞干布",
+        "尺带珠丹",
+        "成吉思汗",
+        "康熙帝"
+      ],
+      "answer": 0,
+      "explain": "唐太宗把文成公主嫁给吐蕃赞普松赞干布，唐蕃往来更密切。后来金城公主入藏，嫁的是尺带珠丹，不要记混。",
+      "source": "统编《中国历史》七年级下册 · 第5课 隋唐时期的民族交往与交融"
+    }
+  ]
+}

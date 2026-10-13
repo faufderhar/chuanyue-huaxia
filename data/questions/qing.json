@@ -1,0 +1,487 @@
+{
+  "chapterId": "qing",
+  "questions": [
+    {
+      "id": "qing-p-c1",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "1662年，从荷兰殖民者手中收复台湾的是谁？",
+      "options": [
+        "郑成功",
+        "康熙帝",
+        "林则徐",
+        "郑和"
+      ],
+      "answer": 0,
+      "explain": "1662年郑成功收复台湾。康熙帝后来设置台湾府，两件事不是同一件。",
+      "source": "统编《中国历史》七年级下册 · 第18课 清朝的边疆治理"
+    },
+    {
+      "id": "qing-p-c2",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "林则徐在虎门做的主要事情是什么？",
+      "options": [
+        "当众销毁收缴的鸦片",
+        "修建铁路",
+        "建立明朝",
+        "编写《授时历》"
+      ],
+      "answer": 0,
+      "explain": "1839年6月，林则徐主持虎门销烟。鸦片危害人的健康，也让国家白银外流。",
+      "source": "统编《中国历史》八年级上册 · 第1课 鸦片战争"
+    },
+    {
+      "id": "qing-p-c3",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "詹天佑主持修建的是哪条铁路？",
+      "options": [
+        "京张铁路",
+        "京沪高铁",
+        "丝绸之路",
+        "大运河"
+      ],
+      "answer": 0,
+      "explain": "詹天佑主持修建京张铁路，它是中国人自行设计和施工的第一条铁路干线。八达岭附近的青龙桥站采用“人”字形线路。",
+      "source": "统编《中国历史》八年级上册 · 近代科学技术（詹天佑与京张铁路）"
+    },
+    {
+      "id": "qing-p-c4",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "清朝设置台湾府，是为了什么？",
+      "options": [
+        "加强中央对台湾的管辖",
+        "把台湾送给外国",
+        "取消台湾的农田",
+        "让郑和在这里起航"
+      ],
+      "answer": 0,
+      "explain": "1684年清朝设置台湾府，加强了东南海防和中央对台湾的管理。",
+      "source": "统编《中国历史》七年级下册 · 第18课 清朝的边疆治理"
+    },
+    {
+      "id": "qing-p-c5",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "虎门销烟发生在哪一年？",
+      "options": [
+        "1839年",
+        "1662年",
+        "1405年",
+        "1909年"
+      ],
+      "answer": 0,
+      "explain": "1839年，林则徐在虎门海滩公开销毁鸦片，显示了禁烟的决心。",
+      "source": "统编《中国历史》八年级上册 · 第1课 鸦片战争"
+    },
+    {
+      "id": "qing-p-c6",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "京张铁路为什么被历史课特别记住？",
+      "options": [
+        "它是中国人自己设计和施工的第一条铁路干线",
+        "它是世界上第一条铁路",
+        "它由郑和设计",
+        "它只运输丝绸"
+      ],
+      "answer": 0,
+      "explain": "1909年京张铁路通车。詹天佑在八达岭附近的青龙桥站设计了“人”字形线路。",
+      "source": "统编《中国历史》八年级上册 · 近代科学技术（詹天佑与京张铁路）"
+    },
+    {
+      "id": "qing-p-m1",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和事迹连起来。",
+      "pairs": [
+        {
+          "id": "zcg",
+          "left": "郑成功",
+          "right": "1662年收复台湾"
+        },
+        {
+          "id": "kx",
+          "left": "康熙帝",
+          "right": "1684年设置台湾府"
+        },
+        {
+          "id": "lzx",
+          "left": "林则徐",
+          "right": "主持虎门销烟"
+        }
+      ],
+      "explain": "收复台湾的是郑成功，设置台湾府的是康熙帝，销毁鸦片的是林则徐。",
+      "source": "统编《中国历史》七年级下册 · 第18课；八年级上册 · 第1课"
+    },
+    {
+      "id": "qing-p-m2",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和成就连起来。",
+      "pairs": [
+        {
+          "id": "zty",
+          "left": "詹天佑",
+          "right": "主持京张铁路"
+        },
+        {
+          "id": "lzx2",
+          "left": "林则徐",
+          "right": "到广东查禁鸦片"
+        },
+        {
+          "id": "kx2",
+          "left": "康熙帝",
+          "right": "重视农耕，巩固国家统一"
+        }
+      ],
+      "explain": "詹天佑是铁路工程师，林则徐是禁烟钦差，康熙帝在位时巩固了统一。",
+      "source": "统编《中国历史》七年级下册 · 第18课；八年级上册 · 第1课；近代科学技术"
+    },
+    {
+      "id": "qing-p-o1",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "take",
+          "text": "郑成功收复台湾"
+        },
+        {
+          "id": "fu",
+          "text": "清朝设置台湾府"
+        },
+        {
+          "id": "smoke",
+          "text": "林则徐虎门销烟"
+        }
+      ],
+      "answer": [
+        "take",
+        "fu",
+        "smoke"
+      ],
+      "explain": "1662年收复台湾，1684年设台湾府，1839年虎门销烟。",
+      "source": "统编《中国历史》七年级下册 · 第18课；八年级上册 · 第1课"
+    },
+    {
+      "id": "qing-p-o2",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "kang",
+          "text": "康熙帝在位"
+        },
+        {
+          "id": "lin",
+          "text": "虎门销烟"
+        },
+        {
+          "id": "rail",
+          "text": "京张铁路通车"
+        }
+      ],
+      "answer": [
+        "kang",
+        "lin",
+        "rail"
+      ],
+      "explain": "康熙帝生活在17到18世纪，虎门销烟在1839年，京张铁路1909年通车。",
+      "source": "统编《中国历史》七年级下册 · 第18课；八年级上册 · 第1课；近代科学技术"
+    },
+    {
+      "id": "qing-j-c1",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "郑成功收复台湾和清朝设置台湾府，时间分别是？",
+      "options": [
+        "1662年收复，1684年设台湾府",
+        "1684年收复，1662年设府",
+        "1405年收复，1433年设府",
+        "1839年收复，1842年设府"
+      ],
+      "answer": 0,
+      "explain": "郑成功1662年打败荷兰殖民者并收复台湾。康熙时期于1684年设台湾府，隶属福建省。",
+      "source": "统编《中国历史》七年级下册 · 第18课 清朝的边疆治理"
+    },
+    {
+      "id": "qing-j-c2",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "《尼布楚条约》签订于哪一年？它是什么性质的条约？",
+      "options": [
+        "1689年，中俄双方签订的边界条约",
+        "1842年，中国与英国的城下之盟",
+        "1271年，元朝建国诏书",
+        "1757年，只开放广州的命令"
+      ],
+      "answer": 0,
+      "explain": "雅克萨之战后，1689年中俄签订《尼布楚条约》，这是双方签订的第一个边界条约。",
+      "source": "统编《中国历史》七年级下册 · 第18课 清朝的边疆治理"
+    },
+    {
+      "id": "qing-j-c3",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "清朝闭关政策在贸易口岸上的典型做法是什么？",
+      "options": [
+        "1757年后只开放广州一处，由广州十三行经营",
+        "开放全部沿海港口",
+        "禁止国内粮食买卖",
+        "把都城迁到广州"
+      ],
+      "answer": 0,
+      "explain": "1757年，清廷只留广州一处对西方商船开放，由特许的广州十三行统一经营，中国因此逐渐落伍。",
+      "source": "统编《中国历史》七年级下册 · 第19课 清朝君主专制的强化"
+    },
+    {
+      "id": "qing-j-c4",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "鸦片战争是谁发动的？《南京条约》割让了什么？",
+      "options": [
+        "英国发动；割香港岛给英国",
+        "林则徐发动；割台湾岛",
+        "荷兰发动；割澳门",
+        "日本发动；割香港岛"
+      ],
+      "answer": 0,
+      "explain": "1840年6月英国发动鸦片战争。1842年《南京条约》割香港岛给英国，并开放广州、厦门、福州、宁波、上海五处为通商口岸。",
+      "source": "统编《中国历史》八年级上册 · 第1课 鸦片战争"
+    },
+    {
+      "id": "qing-j-c5",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "军机处设立于什么时候？它说明了什么？",
+      "options": [
+        "雍正年间设立，君主专制进一步强化",
+        "秦始皇时期设立，用来修长城",
+        "武则天创立，用来举行殿试",
+        "宋神宗设立，用来推行青苗法"
+      ],
+      "answer": 0,
+      "explain": "雍正年间设军机处，军政大事由皇帝裁决，君主专制达到新的高度。",
+      "source": "统编《中国历史》七年级下册 · 第19课 清朝君主专制的强化"
+    },
+    {
+      "id": "qing-j-c6",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "对京张铁路的准确说法是哪一句？",
+      "options": [
+        "中国人自行设计和施工的第一条铁路干线",
+        "中国土地上出现的第一条铁路",
+        "由英国工程师设计的运河",
+        "1405年郑和开通的航线"
+      ],
+      "answer": 0,
+      "explain": "1905年詹天佑任总工程师，1909年通车。八达岭附近的青龙桥站采用“人”字形线路。更早的淞沪铁路是英国商人修建的，所以不能简单说京张是中国第一条铁路。",
+      "source": "统编《中国历史》八年级上册 · 近代科学技术（詹天佑与京张铁路）"
+    },
+    {
+      "id": "qing-j-m1",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和史实连起来。",
+      "pairs": [
+        {
+          "id": "zcgj",
+          "left": "郑成功",
+          "right": "1662年收复被荷兰殖民者占据的台湾"
+        },
+        {
+          "id": "kxj",
+          "left": "康熙帝",
+          "right": "雅克萨之战与《尼布楚条约》"
+        },
+        {
+          "id": "lzxj",
+          "left": "林则徐",
+          "right": "1839年主持虎门销烟"
+        }
+      ],
+      "explain": "郑成功收复台湾，康熙帝处理东北边界并设台湾府，林则徐主持禁烟。",
+      "source": "统编《中国历史》七年级下册 · 第18课；八年级上册 · 第1课"
+    },
+    {
+      "id": "qing-j-m2",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和措施连起来。",
+      "pairs": [
+        {
+          "id": "ztyj",
+          "left": "詹天佑",
+          "right": "在八达岭附近的青龙桥站设计“人”字形线路"
+        },
+        {
+          "id": "yongzheng",
+          "left": "雍正帝",
+          "right": "设立军机处"
+        },
+        {
+          "id": "qianlong",
+          "left": "乾隆帝",
+          "right": "1757年只留广州一口通商"
+        }
+      ],
+      "explain": "詹天佑在八达岭附近的青龙桥站设计了“人”字形线路；军机处设于雍正年间；一口通商是乾隆时期闭关政策的表现。",
+      "source": "统编《中国历史》七年级下册 · 第19课；八年级上册 · 近代科学技术"
+    },
+    {
+      "id": "qing-j-o1",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "houjin",
+          "text": "努尔哈赤建立后金"
+        },
+        {
+          "id": "beijing",
+          "text": "清军入关，定都北京"
+        },
+        {
+          "id": "taiwan",
+          "text": "郑成功收复台湾"
+        },
+        {
+          "id": "fu2",
+          "text": "清朝设置台湾府"
+        }
+      ],
+      "answer": [
+        "houjin",
+        "beijing",
+        "taiwan",
+        "fu2"
+      ],
+      "explain": "1616年后金建立，1644年清军入关定都北京，1662年收复台湾，1684年设台湾府。",
+      "source": "统编《中国历史》七年级下册 · 第17课；第18课"
+    },
+    {
+      "id": "qing-j-o2",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "nibuchu",
+          "text": "签订《尼布楚条约》"
+        },
+        {
+          "id": "guangzhou",
+          "text": "只开放广州一口通商"
+        },
+        {
+          "id": "humen",
+          "text": "虎门销烟"
+        },
+        {
+          "id": "jingzhang",
+          "text": "京张铁路通车"
+        }
+      ],
+      "answer": [
+        "nibuchu",
+        "guangzhou",
+        "humen",
+        "jingzhang"
+      ],
+      "explain": "1689年《尼布楚条约》，1757年广州一口通商，1839年虎门销烟，1909年京张铁路通车。",
+      "source": "统编《中国历史》七年级下册 · 第18课；第19课；八年级上册 · 第1课；近代科学技术"
+    },
+    {
+      "id": "qing-p-c7",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "《尼布楚条约》是在哪位皇帝时期签订的？",
+      "options": [
+        "康熙帝",
+        "秦始皇",
+        "宋太祖",
+        "明太祖"
+      ],
+      "answer": 0,
+      "explain": "康熙帝组织雅克萨之战之后，1689年中俄签订《尼布楚条约》，划定了中俄东段边界。",
+      "source": "统编《中国历史》七年级下册 · 第18课 清朝的边疆治理"
+    },
+    {
+      "id": "qing-p-c8",
+      "chapterId": "qing",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "1644年清军入关后，把都城定在哪里？",
+      "options": [
+        "北京",
+        "南京",
+        "沈阳一直是唯一都城",
+        "广州"
+      ],
+      "answer": 0,
+      "explain": "1644年清军入关，把都城迁到北京。明朝也在这一年结束。",
+      "source": "统编《中国历史》七年级下册 · 第17课 明朝的灭亡和清朝的建立"
+    },
+    {
+      "id": "qing-j-c7",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "1636年，皇太极把国号改成了什么？",
+      "options": [
+        "清",
+        "元",
+        "明",
+        "周"
+      ],
+      "answer": 0,
+      "explain": "1616年努尔哈赤建立后金。1636年皇太极改国号为清。1644年清军入关，定都北京。",
+      "source": "统编《中国历史》七年级下册 · 第17课 明朝的灭亡和清朝的建立"
+    },
+    {
+      "id": "qing-j-c8",
+      "chapterId": "qing",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "清朝设置驻藏大臣，是为了管辖哪里？",
+      "options": [
+        "西藏",
+        "台湾",
+        "雅克萨",
+        "广州"
+      ],
+      "answer": 0,
+      "explain": "雍正年间设置驻藏大臣，监督西藏地方政务，加强了中央对西藏的管辖。",
+      "source": "统编《中国历史》七年级下册 · 第18课 清朝的边疆治理"
+    }
+  ]
+}

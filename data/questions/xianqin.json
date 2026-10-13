@@ -1,0 +1,482 @@
+{
+  "chapterId": "xianqin",
+  "questions": [
+    {
+      "id": "xianqin-p-c1",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "孔子创立的学派是哪一家？",
+      "options": [
+        "儒家",
+        "道家",
+        "法家",
+        "墨家"
+      ],
+      "answer": 0,
+      "explain": "孔子是春秋时期鲁国人，儒家学派的创始人。",
+      "source": "统编《中国历史》七年级上册 · 第7课 百家争鸣"
+    },
+    {
+      "id": "xianqin-p-c2",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "孔子说的“有教无类”，主要是指什么？",
+      "options": [
+        "不同出身的人都可以学习",
+        "只有贵族才能读书",
+        "学习时不用写字",
+        "只在皇宫里讲课"
+      ],
+      "answer": 0,
+      "explain": "孔子创办私学，主张“有教无类”，打破了贵族对教育的垄断。",
+      "source": "统编《中国历史》七年级上册 · 第7课 百家争鸣"
+    },
+    {
+      "id": "xianqin-p-c3",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "老子认为，统治者治理百姓最好怎样做？",
+      "options": [
+        "少打扰百姓，顺其自然",
+        "天天带兵打仗",
+        "把书都收走",
+        "只让贵族说话"
+      ],
+      "answer": 0,
+      "explain": "老子是道家学派创始人，主张“无为而治”。",
+      "source": "统编《中国历史》七年级上册 · 第7课 百家争鸣"
+    },
+    {
+      "id": "xianqin-p-c4",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "端午节纪念的战国诗人是谁？",
+      "options": [
+        "屈原",
+        "李白",
+        "杜甫",
+        "苏轼"
+      ],
+      "answer": 0,
+      "explain": "屈原是战国楚国诗人，代表作是《离骚》，端午节有纪念他的习俗。",
+      "source": "统编《中国历史》七年级上册 · 第8课 夏商周时期的科技与文化"
+    },
+    {
+      "id": "xianqin-p-c5",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "都江堰是谁主持修建的？",
+      "options": [
+        "李冰",
+        "孔子",
+        "大禹",
+        "蔡伦"
+      ],
+      "answer": 0,
+      "explain": "战国时，秦国蜀郡太守李冰主持修建都江堰，用来灌溉农田、减轻水患。",
+      "source": "统编《中国历史》七年级上册 · 第6课 战国时期的社会变革"
+    },
+    {
+      "id": "xianqin-p-c6",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "北京人遗址发现在哪里？他们已经会做什么？",
+      "options": [
+        "北京周口店，会使用火",
+        "云南元谋，只会吃生食",
+        "浙江河姆渡，还不会用火",
+        "西安半坡，生活在商朝"
+      ],
+      "answer": 0,
+      "explain": "北京人遗址位于北京周口店，北京人已经会使用火。",
+      "source": "统编《中国历史》七年级上册 · 第1课 远古时期的人类活动"
+    },
+    {
+      "id": "xianqin-p-m1",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和对应的事迹连起来。",
+      "pairs": [
+        {
+          "id": "kz",
+          "left": "孔子",
+          "right": "创办私学，主张有教无类"
+        },
+        {
+          "id": "lz",
+          "left": "老子",
+          "right": "道家创始人，主张无为而治"
+        },
+        {
+          "id": "qy",
+          "left": "屈原",
+          "right": "楚国诗人，写下《离骚》"
+        }
+      ],
+      "explain": "孔子开创儒家并办学，老子主张无为而治，屈原的代表作是《离骚》。",
+      "source": "统编《中国历史》七年级上册 · 第7课 百家争鸣；第8课 夏商周时期的科技与文化"
+    },
+    {
+      "id": "xianqin-p-m2",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和对应的句子连起来。",
+      "pairs": [
+        {
+          "id": "kz2",
+          "left": "孔子",
+          "right": "学而时习之，不亦说乎"
+        },
+        {
+          "id": "lz2",
+          "left": "老子",
+          "right": "祸兮福之所倚，福兮祸之所伏"
+        },
+        {
+          "id": "lb",
+          "left": "李冰",
+          "right": "主持修建都江堰"
+        }
+      ],
+      "explain": "前两句分别出自《论语》和《老子》；李冰的主要贡献是主持修建都江堰。",
+      "source": "统编《中国历史》七年级上册 · 第6课 战国时期的社会变革；第7课 百家争鸣"
+    },
+    {
+      "id": "xianqin-p-o1",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后，把下面三件事排好。",
+      "items": [
+        {
+          "id": "xia",
+          "text": "禹建立夏朝"
+        },
+        {
+          "id": "shang",
+          "text": "商汤打败夏朝，建立商朝"
+        },
+        {
+          "id": "zhou",
+          "text": "周武王打败商朝，建立西周"
+        }
+      ],
+      "answer": [
+        "xia",
+        "shang",
+        "zhou"
+      ],
+      "explain": "教材所述顺序是：约公元前2070年夏朝建立，约公元前1600年商汤灭夏，约公元前1046年周武王灭商。",
+      "source": "统编《中国历史》七年级上册 · 第4课 夏商西周王朝的更替"
+    },
+    {
+      "id": "xianqin-p-o2",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "farm",
+          "text": "河姆渡人和半坡居民从事原始农耕"
+        },
+        {
+          "id": "xia2",
+          "text": "夏朝建立"
+        },
+        {
+          "id": "kong",
+          "text": "孔子在春秋时期聚徒讲学"
+        }
+      ],
+      "answer": [
+        "farm",
+        "xia2",
+        "kong"
+      ],
+      "explain": "原始农耕距今约五六千年，夏朝约从公元前2070年开始，孔子生活在春秋后期。",
+      "source": "统编《中国历史》七年级上册 · 第2课 原始农业与史前社会；第4课；第7课"
+    },
+    {
+      "id": "xianqin-j-c1",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "约公元前2070年禹建立夏朝。禹的儿子启继位后，最重要的制度变化是什么？",
+      "options": [
+        "世袭制代替禅让制",
+        "郡县制代替分封制",
+        "科举制正式创立",
+        "行省制开始推行"
+      ],
+      "answer": 0,
+      "explain": "启继承禹的位置，世袭制代替禅让制，“公天下”变成“家天下”。",
+      "source": "统编《中国历史》七年级上册 · 第4课 夏商西周王朝的更替"
+    },
+    {
+      "id": "xianqin-j-c2",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "甲骨文主要出现在哪个朝代，刻在什么上面？",
+      "options": [
+        "商朝，刻在龟甲和兽骨上",
+        "夏朝，刻在竹简上",
+        "秦朝，刻在兵马俑上",
+        "西汉，写在纸上"
+      ],
+      "answer": 0,
+      "explain": "商朝人把文字刻在龟甲和兽骨上，称为甲骨文，这是我国已发现的古代文字中年代最早、体系较完整的文字。",
+      "source": "统编《中国历史》七年级上册 · 第8课 夏商周时期的科技与文化"
+    },
+    {
+      "id": "xianqin-j-c3",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "战国七雄中，地理位置最西、后来统一六国的是哪一国？",
+      "options": [
+        "秦",
+        "齐",
+        "楚",
+        "燕"
+      ],
+      "answer": 0,
+      "explain": "战国七雄是齐、楚、燕、韩、赵、魏、秦。秦在最西边，经过商鞅变法后日益强盛。",
+      "source": "统编《中国历史》七年级上册 · 第6课 战国时期的社会变革"
+    },
+    {
+      "id": "xianqin-j-c4",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "商鞅在秦孝公支持下变法。下面哪一项是变法的主要内容？",
+      "options": [
+        "奖励耕战，废除贵族世袭特权，推行县制",
+        "恢复分封制，取消一切刑罚",
+        "关闭私学，只允许道家讲学",
+        "把都城迁到大都"
+      ],
+      "answer": 0,
+      "explain": "商鞅变法奖励耕战、推行县制，废除旧贵族的世袭特权，使秦国富强起来，为后来统一六国奠定基础。",
+      "source": "统编《中国历史》七年级上册 · 第6课 战国时期的社会变革"
+    },
+    {
+      "id": "xianqin-j-c5",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "孔子思想的核心，以及他对治国的主张分别是什么？",
+      "options": [
+        "核心是“仁”，主张为政以德",
+        "核心是“法”，主张专任刑罚",
+        "核心是“无为”，主张取消政府",
+        "核心是“兼爱”，主张取消等级"
+      ],
+      "answer": 0,
+      "explain": "孔子思想的核心是“仁”，政治上主张“为政以德”。“兼爱”是墨子的主张。",
+      "source": "统编《中国历史》七年级上册 · 第7课 百家争鸣"
+    },
+    {
+      "id": "xianqin-j-c6",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "老子认为，对立的双方可以怎样？",
+      "options": [
+        "相互转化",
+        "永远不变",
+        "只有一方存在",
+        "必须用战争解决"
+      ],
+      "answer": 0,
+      "explain": "老子认为一切事物都有对立面，对立的双方能够相互转化，例如福和祸。",
+      "source": "统编《中国历史》七年级上册 · 第7课 百家争鸣"
+    },
+    {
+      "id": "xianqin-j-m1",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把思想家、改革家和他们的主张连起来。",
+      "pairs": [
+        {
+          "id": "kzj",
+          "left": "孔子",
+          "right": "仁；有教无类；为政以德"
+        },
+        {
+          "id": "lzj",
+          "left": "老子",
+          "right": "无为而治；对立面可以转化"
+        },
+        {
+          "id": "sy",
+          "left": "商鞅",
+          "right": "奖励耕战，在秦国推行县制"
+        }
+      ],
+      "explain": "孔子创立儒家，老子创立道家，商鞅在秦孝公支持下变法，三者不要记混。",
+      "source": "统编《中国历史》七年级上册 · 第6课 战国时期的社会变革；第7课 百家争鸣"
+    },
+    {
+      "id": "xianqin-j-m2",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和相关文献或工程连起来。",
+      "pairs": [
+        {
+          "id": "lbj",
+          "left": "李冰",
+          "right": "都江堰"
+        },
+        {
+          "id": "qyj",
+          "left": "屈原",
+          "right": "《离骚》"
+        },
+        {
+          "id": "kzj2",
+          "left": "孔子",
+          "right": "言行由弟子整理成《论语》"
+        }
+      ],
+      "explain": "都江堰由李冰主持；《离骚》是屈原的代表作；《论语》记录孔子及其弟子的言行。",
+      "source": "统编《中国历史》七年级上册 · 第6课；第7课；第8课"
+    },
+    {
+      "id": "xianqin-j-o1",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按制度出现的先后排序。",
+      "items": [
+        {
+          "id": "shanrang",
+          "text": "传说中的禅让制"
+        },
+        {
+          "id": "shixi",
+          "text": "夏朝以世袭制代替禅让制"
+        },
+        {
+          "id": "fengjian",
+          "text": "西周推行分封制"
+        },
+        {
+          "id": "junxian",
+          "text": "秦国商鞅变法时推行县制"
+        }
+      ],
+      "answer": [
+        "shanrang",
+        "shixi",
+        "fengjian",
+        "junxian"
+      ],
+      "explain": "顺序是：禅让，夏朝世袭，西周分封，战国时期秦国在变法中推行县制。秦统一后把郡县制推向全国。",
+      "source": "统编《中国历史》七年级上册 · 第4课；第6课"
+    },
+    {
+      "id": "xianqin-j-o2",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列下面几件事。",
+      "items": [
+        {
+          "id": "chunqiu",
+          "text": "春秋后期，孔子聚徒讲学"
+        },
+        {
+          "id": "zhanguo",
+          "text": "战国时期，商鞅在秦国变法"
+        },
+        {
+          "id": "tongyi",
+          "text": "公元前221年，秦统一六国"
+        }
+      ],
+      "answer": [
+        "chunqiu",
+        "zhanguo",
+        "tongyi"
+      ],
+      "explain": "孔子生活在春秋后期，商鞅变法发生在战国，秦统一六国在公元前221年。",
+      "source": "统编《中国历史》七年级上册 · 第6课；第7课；第9课 秦统一中国"
+    },
+    {
+      "id": "xianqin-p-c7",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "半坡居民生活在哪一带，主要种植什么？",
+      "options": [
+        "黄河流域，主要种植粟",
+        "长江流域，主要种植水稻",
+        "珠江流域，主要种植玉米",
+        "只有渔猎，完全不种粮食"
+      ],
+      "answer": 0,
+      "explain": "半坡居民生活在黄河流域，住半地穴式房屋，主要种植粟。河姆渡人则在长江流域种植水稻。",
+      "source": "统编《中国历史》七年级上册 · 第2课 原始农业与史前社会"
+    },
+    {
+      "id": "xianqin-p-c8",
+      "chapterId": "xianqin",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "河姆渡人的房子为什么建成干栏式？",
+      "options": [
+        "当地潮湿，房子架起来更干爽",
+        "为了躲避京张铁路的火车",
+        "因为他们生活在沙漠里",
+        "为了模仿秦朝的长城"
+      ],
+      "answer": 0,
+      "explain": "河姆渡人生活在长江流域，雨水多、地面潮湿，所以把房子建成干栏式，下面可以通风。",
+      "source": "统编《中国历史》七年级上册 · 第2课 原始农业与史前社会"
+    },
+    {
+      "id": "xianqin-j-c7",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "都江堰修成以后，成都平原得到了什么称呼？",
+      "options": [
+        "天府之国",
+        "丝路起点",
+        "东京开封",
+        "人间天堂只指大都"
+      ],
+      "answer": 0,
+      "explain": "战国时秦国蜀郡太守李冰主持修建都江堰，成都平原水旱从人，被称为“天府之国”。",
+      "source": "统编《中国历史》七年级上册 · 第6课 战国时期的社会变革"
+    },
+    {
+      "id": "xianqin-j-c8",
+      "chapterId": "xianqin",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "西周分封制主要把土地和人民分封给谁？",
+      "options": [
+        "宗亲和功臣，由他们建立诸侯国",
+        "全体农民，让他们轮流做天子",
+        "外国商人，让他们管理王畿",
+        "科举考生，让他们世袭王位"
+      ],
+      "answer": 0,
+      "explain": "西周实行分封制，周天子把土地和人民分封给宗亲、功臣等，受封者建立诸侯国，必须服从天子并承担义务。",
+      "source": "统编《中国历史》七年级上册 · 第4课 夏商西周王朝的更替"
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "chapterId": "yuan",
+  "questions": [
+    {
+      "id": "yuan-p-c1",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "1206年，成吉思汗完成的是哪一件事？",
+      "options": [
+        "统一蒙古各部，建立蒙古政权",
+        "定国号为元，建立元朝",
+        "在南京建立明朝",
+        "开通京张铁路"
+      ],
+      "answer": 0,
+      "explain": "1206年，铁木真统一蒙古各部，建立蒙古政权，被尊称为成吉思汗。这还不是元朝。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-p-c2",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "谁在1271年把国号定为元？",
+      "options": [
+        "忽必烈",
+        "成吉思汗",
+        "朱元璋",
+        "康熙帝"
+      ],
+      "answer": 0,
+      "explain": "1271年，忽必烈定国号为元，他就是元世祖。成吉思汗建立的是蒙古政权。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-p-c3",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "郭守敬的主要科学成就是什么？",
+      "options": [
+        "编成《授时历》",
+        "发明活字印刷",
+        "七次下西洋",
+        "写《史记》"
+      ],
+      "answer": 0,
+      "explain": "郭守敬在元初编成《授时历》，把一年的长度测算得很精确。",
+      "source": "统编《中国历史》七年级下册 · 第14课 辽宋夏金元时期的科技与文化"
+    },
+    {
+      "id": "yuan-p-c4",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "成吉思汗和元朝皇帝是什么关系？",
+      "options": [
+        "他没有当过元朝皇帝，后来被追尊为元太祖",
+        "他是元朝的开国皇帝",
+        "他是明朝的开国皇帝",
+        "他修建了京张铁路"
+      ],
+      "answer": 0,
+      "explain": "成吉思汗建立的是蒙古政权。元朝建立以后，追尊他为元太祖。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-p-c5",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "元朝的都城大都，就是今天的哪里？",
+      "options": [
+        "北京",
+        "南京",
+        "西安",
+        "杭州"
+      ],
+      "answer": 0,
+      "explain": "忽必烈定都大都，大都就是今天的北京。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-p-c6",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "行省制是一种什么制度？",
+      "options": [
+        "元朝管理地方的制度",
+        "一种历法",
+        "选拔诗人的考试",
+        "海上航海路线"
+      ],
+      "answer": 0,
+      "explain": "忽必烈在地方设置行中书省，简称行省。这就是后来“省”这种区划的开端。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-p-m1",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和事迹连起来。",
+      "pairs": [
+        {
+          "id": "gg",
+          "left": "成吉思汗",
+          "right": "1206年统一蒙古各部，建立蒙古政权"
+        },
+        {
+          "id": "hb",
+          "left": "忽必烈",
+          "right": "1271年定国号为元"
+        },
+        {
+          "id": "gsj",
+          "left": "郭守敬",
+          "right": "编成《授时历》"
+        }
+      ],
+      "explain": "成吉思汗建立蒙古政权，忽必烈建立元朝，郭守敬编制《授时历》。",
+      "source": "统编《中国历史》七年级下册 · 第11课；第14课"
+    },
+    {
+      "id": "yuan-p-m2",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和对应的说法连起来。",
+      "pairs": [
+        {
+          "id": "gg2",
+          "left": "成吉思汗",
+          "right": "后来被元朝追尊为元太祖"
+        },
+        {
+          "id": "hb2",
+          "left": "忽必烈",
+          "right": "推行行省制"
+        },
+        {
+          "id": "gsj2",
+          "left": "郭守敬",
+          "right": "测出的一年长度和现行公历差不多"
+        }
+      ],
+      "explain": "元太祖是追尊的庙号；行省是忽必烈的地方制度；《授时历》的一年长度与现行公历基本相同。",
+      "source": "统编《中国历史》七年级下册 · 第11课；第14课"
+    },
+    {
+      "id": "yuan-p-o1",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "meng",
+          "text": "成吉思汗建立蒙古政权"
+        },
+        {
+          "id": "yuan",
+          "text": "忽必烈定国号为元"
+        },
+        {
+          "id": "cal",
+          "text": "郭守敬编成《授时历》"
+        }
+      ],
+      "answer": [
+        "meng",
+        "yuan",
+        "cal"
+      ],
+      "explain": "1206年建立蒙古政权，1271年定国号为元，《授时历》在元初编成，晚于建国号。",
+      "source": "统编《中国历史》七年级下册 · 第11课；第14课"
+    },
+    {
+      "id": "yuan-p-o2",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "tribe",
+          "text": "铁木真统一蒙古各部"
+        },
+        {
+          "id": "name",
+          "text": "忽必烈把国号定为元"
+        },
+        {
+          "id": "capital",
+          "text": "元朝定都大都"
+        }
+      ],
+      "answer": [
+        "tribe",
+        "name",
+        "capital"
+      ],
+      "explain": "先有1206年的蒙古政权，1271年才定国号为元，1272年定都大都。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-j-c1",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "忽必烈定国号为元、定都大都，分别在哪一年？",
+      "options": [
+        "1271年定国号，1272年定都大都",
+        "1206年定国号，1227年定都",
+        "1271年同时定国号并定都大都",
+        "1368年定国号为元"
+      ],
+      "answer": 0,
+      "explain": "1271年忽必烈定国号为元，次年（1272年）定都大都。两件事不要并成同一年。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-j-c2",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "行省制的历史影响是什么？",
+      "options": [
+        "成为我国省制的开端",
+        "恢复了西周分封制",
+        "取消了中央政府",
+        "只用于管理海外贸易"
+      ],
+      "answer": 0,
+      "explain": "元朝在地方设行中书省，简称行省。这一制度是我国省级行政区划的开端。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-j-c3",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "元朝完成全国统一是在哪一年？在此之前，元军于哪一年攻入临安？",
+      "options": [
+        "1276年攻入临安，1279年完成统一",
+        "1206年完成统一",
+        "1127年完成统一",
+        "1368年忽必烈完成统一"
+      ],
+      "answer": 0,
+      "explain": "1276年元军攻入临安，南宋灭亡；1279年元朝完成全国统一，结束长期并立的局面。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-j-c4",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "元朝怎样管理西藏地区和台湾地区？",
+      "options": [
+        "设宣政院管理西藏军政事务，在澎湖设巡检司管理台湾",
+        "在两地都实行科举殿试",
+        "把两地交给行省中的岭北行省",
+        "当时还没有对这两地的管辖"
+      ],
+      "answer": 0,
+      "explain": "宣政院掌管全国宗教和西藏地区军政事务；澎湖巡检司是历史上中央政府首次在台湾地区正式建立的行政机构。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-j-c5",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "对成吉思汗的表述，哪一项符合教材和史实？",
+      "options": [
+        "他是忽必烈的祖父，建立的是蒙古政权，不是元朝",
+        "他于1271年称帝，国号为元",
+        "他推行行省制并定都大都",
+        "他编成了《授时历》"
+      ],
+      "answer": 0,
+      "explain": "1206年铁木真建立蒙古政权，尊号成吉思汗。建立元朝、定都大都的是他的孙子忽必烈。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-j-c6",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "《授时历》精确在哪里？",
+      "options": [
+        "一年约为365.2425日，比现行公历的确立早约300年",
+        "它把一年定成360天整",
+        "它是世界上第一部农书",
+        "它由毕昇在北宋编成"
+      ],
+      "answer": 0,
+      "explain": "郭守敬主持编成的《授时历》，一年长度与现行公历基本相同，比现行公历的确立早约300年。",
+      "source": "统编《中国历史》七年级下册 · 第14课 辽宋夏金元时期的科技与文化"
+    },
+    {
+      "id": "yuan-j-m1",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和制度或科学成就连起来。",
+      "pairs": [
+        {
+          "id": "ggj",
+          "left": "成吉思汗",
+          "right": "1206年建立蒙古政权"
+        },
+        {
+          "id": "hbj",
+          "left": "忽必烈",
+          "right": "推行行省制，成为省制开端"
+        },
+        {
+          "id": "gsjj",
+          "left": "郭守敬",
+          "right": "主持编订《授时历》"
+        }
+      ],
+      "explain": "蒙古政权、元朝行省和《授时历》分别对应这三个人，不能张冠李戴。",
+      "source": "统编《中国历史》七年级下册 · 第11课；第14课"
+    },
+    {
+      "id": "yuan-j-m2",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和称号或身份连起来。",
+      "pairs": [
+        {
+          "id": "tm",
+          "left": "铁木真",
+          "right": "被尊称为成吉思汗"
+        },
+        {
+          "id": "hbj2",
+          "left": "忽必烈",
+          "right": "元世祖"
+        },
+        {
+          "id": "gsjj2",
+          "left": "郭守敬",
+          "right": "元朝科学家，编成《授时历》"
+        }
+      ],
+      "explain": "铁木真的尊号是成吉思汗；忽必烈即元世祖；郭守敬以天文历法和水利工程著称。",
+      "source": "统编《中国历史》七年级下册 · 第11课；第14课"
+    },
+    {
+      "id": "yuan-j-o1",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "steppe",
+          "text": "成吉思汗建立蒙古政权"
+        },
+        {
+          "id": "jin",
+          "text": "蒙古灭金"
+        },
+        {
+          "id": "guohao",
+          "text": "忽必烈定国号为元"
+        },
+        {
+          "id": "unify",
+          "text": "元朝完成全国统一"
+        }
+      ],
+      "answer": [
+        "steppe",
+        "jin",
+        "guohao",
+        "unify"
+      ],
+      "explain": "1206年建立蒙古政权，1234年蒙古灭金，1271年定国号，1279年完成统一。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-j-o2",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "title",
+          "text": "定国号为元"
+        },
+        {
+          "id": "dadu",
+          "text": "定都大都"
+        },
+        {
+          "id": "unify2",
+          "text": "完成全国统一"
+        },
+        {
+          "id": "calendar",
+          "text": "《授时历》编成"
+        }
+      ],
+      "answer": [
+        "title",
+        "dadu",
+        "unify2",
+        "calendar"
+      ],
+      "explain": "1271年定国号，1272年定都，1279年完成统一，《授时历》于1280年编成。",
+      "source": "统编《中国历史》七年级下册 · 第11课；第14课"
+    },
+    {
+      "id": "yuan-p-c7",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "黄道婆向百姓推广的主要是哪一种技术？",
+      "options": [
+        "棉纺织技术",
+        "活字印刷术",
+        "修建京张铁路",
+        "编写《史记》"
+      ],
+      "answer": 0,
+      "explain": "黄道婆学习并改进棉纺织技术，在松江一带推广，棉布做得更快、更好。",
+      "source": "统编《中国历史》七年级下册 · 第12课 辽宋夏金元时期经济的繁荣"
+    },
+    {
+      "id": "yuan-p-c8",
+      "chapterId": "yuan",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "关汉卿最著名的元曲是哪一部？",
+      "options": [
+        "《窦娥冤》",
+        "《史记》",
+        "《本草纲目》",
+        "《授时历》"
+      ],
+      "answer": 0,
+      "explain": "关汉卿是元朝戏曲家，代表作是《窦娥冤》。郭守敬编的是《授时历》，不是剧本。",
+      "source": "统编《中国历史》七年级下册 · 第14课 辽宋夏金元时期的科技与文化"
+    },
+    {
+      "id": "yuan-j-c7",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "成吉思汗后来被元朝追尊为什么？",
+      "options": [
+        "元太祖",
+        "元世祖",
+        "明太祖",
+        "清太祖"
+      ],
+      "answer": 0,
+      "explain": "成吉思汗没有做过元朝的在位皇帝。忽必烈建立元朝后，他被追尊为元太祖。元世祖是忽必烈的庙号。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    },
+    {
+      "id": "yuan-j-c8",
+      "chapterId": "yuan",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "回族的形成，主要和哪一朝代的民族交融有关？",
+      "options": [
+        "元朝",
+        "宋朝",
+        "明朝",
+        "清朝"
+      ],
+      "answer": 0,
+      "explain": "元朝时，来自中亚、西亚等地的人长期定居，与汉、蒙古等民族交融，逐渐形成回族。",
+      "source": "统编《中国历史》七年级下册 · 第11课 元朝的建立与统一"
+    }
+  ]
+}

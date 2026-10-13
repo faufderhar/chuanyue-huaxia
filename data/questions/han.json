@@ -1,0 +1,482 @@
+{
+  "chapterId": "han",
+  "questions": [
+    {
+      "id": "han-p-c1",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "张骞最重要的事迹是什么？",
+      "options": [
+        "出使西域，促进丝绸之路开通",
+        "修建都江堰",
+        "七次下西洋",
+        "编写《本草纲目》"
+      ],
+      "answer": 0,
+      "explain": "汉武帝派张骞出使西域，汉朝与西域的联系从此加强，丝绸之路逐渐形成。",
+      "source": "统编《中国历史》七年级上册 · 第14课 丝绸之路的开通与经营西域"
+    },
+    {
+      "id": "han-p-c2",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "《史记》的作者是谁？",
+      "options": [
+        "司马迁",
+        "司马光",
+        "孔子",
+        "杜甫"
+      ],
+      "answer": 0,
+      "explain": "西汉司马迁撰写《史记》，它是我国第一部纪传体通史。",
+      "source": "统编《中国历史》七年级上册 · 第15课 秦汉时期的科技与文化"
+    },
+    {
+      "id": "han-p-c3",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "蔡伦对纸的贡献，哪一种说法符合教材？",
+      "options": [
+        "他改进了造纸术",
+        "他是世界上第一个会写字的人",
+        "他发明了活字印刷",
+        "他修筑了长城"
+      ],
+      "answer": 0,
+      "explain": "西汉已经有纸。东汉蔡伦改进造纸术，用树皮、麻头、破布和旧渔网做原料，纸更容易推广。",
+      "source": "统编《中国历史》七年级上册 · 第15课 秦汉时期的科技与文化"
+    },
+    {
+      "id": "han-p-c4",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "汉武帝颁布“推恩令”，是为了什么？",
+      "options": [
+        "让诸侯王的封地越分越小，减弱他们的力量",
+        "让所有孩子不用学习",
+        "取消皇帝",
+        "把都城迁到台湾"
+      ],
+      "answer": 0,
+      "explain": "推恩令允许诸侯王把土地分给子弟，王国越分越小，中央对地方的控制加强了。",
+      "source": "统编《中国历史》七年级上册 · 第12课 大一统王朝的巩固"
+    },
+    {
+      "id": "han-p-c5",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "丝绸之路从长安出发，最主要把中原和哪里连接起来？",
+      "options": [
+        "西域以及更西的地区",
+        "只连接海南",
+        "日本的江户",
+        "美洲"
+      ],
+      "answer": 0,
+      "explain": "丝绸之路从长安经河西走廊、西域，通往中亚、西亚等地，促进了东西方交流。",
+      "source": "统编《中国历史》七年级上册 · 第14课 丝绸之路的开通与经营西域"
+    },
+    {
+      "id": "han-p-c6",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "西汉的都城在哪里？",
+      "options": [
+        "长安",
+        "咸阳",
+        "大都",
+        "临安"
+      ],
+      "answer": 0,
+      "explain": "公元前202年，刘邦建立西汉，定都长安。",
+      "source": "统编《中国历史》七年级上册 · 第11课 西汉建立和“文景之治”"
+    },
+    {
+      "id": "han-p-m1",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和事迹连起来。",
+      "pairs": [
+        {
+          "id": "zq",
+          "left": "张骞",
+          "right": "出使西域"
+        },
+        {
+          "id": "smq",
+          "left": "司马迁",
+          "right": "撰写《史记》"
+        },
+        {
+          "id": "cl",
+          "left": "蔡伦",
+          "right": "改进造纸术"
+        }
+      ],
+      "explain": "张骞打通汉朝与西域的联系，司马迁写成《史记》，蔡伦改进了造纸术。",
+      "source": "统编《中国历史》七年级上册 · 第14课；第15课"
+    },
+    {
+      "id": "han-p-m2",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和介绍连起来。",
+      "pairs": [
+        {
+          "id": "hwd",
+          "left": "汉武帝",
+          "right": "颁布推恩令，巩固大一统"
+        },
+        {
+          "id": "zq2",
+          "left": "张骞",
+          "right": "两次受派出使，途中曾被匈奴扣留"
+        },
+        {
+          "id": "smq2",
+          "left": "司马迁",
+          "right": "《史记》从传说中的黄帝写到汉武帝时期"
+        }
+      ],
+      "explain": "汉武帝在位时巩固了统一；张骞两次出使西域并曾被扣留；《史记》的记事下限到汉武帝时期。",
+      "source": "统编《中国历史》七年级上册 · 第12课；第14课；第15课"
+    },
+    {
+      "id": "han-p-o1",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "xi",
+          "text": "刘邦建立西汉，定都长安"
+        },
+        {
+          "id": "wu",
+          "text": "汉武帝巩固大一统，派张骞出使西域"
+        },
+        {
+          "id": "paper",
+          "text": "蔡伦改进造纸术"
+        }
+      ],
+      "answer": [
+        "xi",
+        "wu",
+        "paper"
+      ],
+      "explain": "西汉在公元前202年建立，汉武帝从公元前141年起在位，蔡伦改进造纸术在东汉。",
+      "source": "统编《中国历史》七年级上册 · 第11课；第12课；第15课"
+    },
+    {
+      "id": "han-p-o2",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "wenjing",
+          "text": "文景之治"
+        },
+        {
+          "id": "wudi",
+          "text": "汉武帝在位"
+        },
+        {
+          "id": "donghan",
+          "text": "刘秀建立东汉"
+        }
+      ],
+      "answer": [
+        "wenjing",
+        "wudi",
+        "donghan"
+      ],
+      "explain": "文景之治在西汉前期，接着是汉武帝时期；公元25年刘秀建立东汉，定都洛阳。",
+      "source": "统编《中国历史》七年级上册 · 第11课；第12课；第13课 东汉的兴衰"
+    },
+    {
+      "id": "han-j-c1",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "“罢黜百家，独尊儒术”是谁向汉武帝提出的建议？",
+      "options": [
+        "董仲舒",
+        "孔子本人",
+        "张骞",
+        "蔡伦"
+      ],
+      "answer": 0,
+      "explain": "董仲舒向汉武帝建议罢黜百家、独尊儒术，儒家思想从此成为西汉以后的正统思想。",
+      "source": "统编《中国历史》七年级上册 · 第12课 大一统王朝的巩固"
+    },
+    {
+      "id": "han-j-c2",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "推恩令是怎样削弱诸侯王的？",
+      "options": [
+        "允许诸侯王把封地分给子弟，王国越分越小",
+        "取消所有郡县",
+        "把诸侯王都派去西域",
+        "恢复禅让制"
+      ],
+      "answer": 0,
+      "explain": "汉武帝颁布推恩令，诸侯王的封地分给所有子弟，王国被拆小，再难以对抗中央。",
+      "source": "统编《中国历史》七年级上册 · 第12课 大一统王朝的巩固"
+    },
+    {
+      "id": "han-j-c3",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "张骞两次出使西域，分别开始于哪一年？",
+      "options": [
+        "公元前138年和公元前119年",
+        "公元138年和公元119年",
+        "公元前221年和公元前207年",
+        "1405年和1433年"
+      ],
+      "answer": 0,
+      "explain": "张骞于公元前138年第一次出使西域，公元前119年再次出发，促进了丝绸之路的形成。",
+      "source": "统编《中国历史》七年级上册 · 第14课 丝绸之路的开通与经营西域"
+    },
+    {
+      "id": "han-j-c4",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "《史记》在体裁上属于什么书？",
+      "options": [
+        "纪传体通史",
+        "编年体通史",
+        "断代纪传体",
+        "地方志"
+      ],
+      "answer": 0,
+      "explain": "《史记》是我国第一部纪传体通史。北宋司马光主持的《资治通鉴》才是编年体通史。",
+      "source": "统编《中国历史》七年级上册 · 第15课 秦汉时期的科技与文化"
+    },
+    {
+      "id": "han-j-c5",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "关于造纸术，哪一项符合史实？",
+      "options": [
+        "西汉已有纸，东汉蔡伦改进造纸术",
+        "蔡伦是最早发明文字的人",
+        "纸是毕昇在北宋发明的",
+        "造纸术直到清朝才出现"
+      ],
+      "answer": 0,
+      "explain": "考古和文献说明西汉已经有纸。蔡伦在东汉改进造纸工艺，使纸的使用更加普遍。",
+      "source": "统编《中国历史》七年级上册 · 第15课 秦汉时期的科技与文化"
+    },
+    {
+      "id": "han-j-c6",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "东汉是谁建立的，都城在哪里？",
+      "options": [
+        "刘秀，洛阳",
+        "刘邦，长安",
+        "曹操，许昌",
+        "孙权，建业"
+      ],
+      "answer": 0,
+      "explain": "公元25年，刘秀建立东汉，定都洛阳，他就是光武帝。",
+      "source": "统编《中国历史》七年级上册 · 第13课 东汉的兴衰"
+    },
+    {
+      "id": "han-j-m1",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和贡献连起来。",
+      "pairs": [
+        {
+          "id": "dc",
+          "left": "董仲舒",
+          "right": "建议罢黜百家、独尊儒术"
+        },
+        {
+          "id": "zqj",
+          "left": "张骞",
+          "right": "两次出使西域"
+        },
+        {
+          "id": "smqj",
+          "left": "司马迁",
+          "right": "写成第一部纪传体通史《史记》"
+        }
+      ],
+      "explain": "董仲舒的建议被汉武帝采纳；张骞开通西域交通；司马迁的《史记》是纪传体通史。",
+      "source": "统编《中国历史》七年级上册 · 第12课；第14课；第15课"
+    },
+    {
+      "id": "han-j-m2",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和措施或发明连起来。",
+      "pairs": [
+        {
+          "id": "hwdj",
+          "left": "汉武帝",
+          "right": "盐铁官营，统一铸五铢钱"
+        },
+        {
+          "id": "clj",
+          "left": "蔡伦",
+          "right": "用树皮、麻头、破布、旧渔网造纸"
+        },
+        {
+          "id": "zqj2",
+          "left": "张骞",
+          "right": "促进丝绸之路形成"
+        }
+      ],
+      "explain": "盐铁官营和统一铸币是汉武帝加强经济控制的办法；蔡伦改进了原料；张骞的出使连接了丝绸之路。",
+      "source": "统编《中国历史》七年级上册 · 第12课；第14课；第15课"
+    },
+    {
+      "id": "han-j-o1",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "hanfound",
+          "text": "刘邦建立西汉"
+        },
+        {
+          "id": "tui",
+          "text": "汉武帝颁布推恩令"
+        },
+        {
+          "id": "second",
+          "text": "张骞第二次出使西域"
+        },
+        {
+          "id": "cai",
+          "text": "蔡伦改进造纸术"
+        }
+      ],
+      "answer": [
+        "hanfound",
+        "tui",
+        "second",
+        "cai"
+      ],
+      "explain": "公元前202年西汉建立；推恩令在汉武帝时期；张骞第二次出使是公元前119年；蔡伦改进造纸在东汉。",
+      "source": "统编《中国历史》七年级上册 · 第11课；第12课；第14课；第15课"
+    },
+    {
+      "id": "han-j-o2",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "qinend",
+          "text": "秦朝灭亡"
+        },
+        {
+          "id": "chuhan",
+          "text": "楚汉之争"
+        },
+        {
+          "id": "xihan",
+          "text": "刘邦称帝，建立西汉"
+        }
+      ],
+      "answer": [
+        "qinend",
+        "chuhan",
+        "xihan"
+      ],
+      "explain": "秦朝于公元前207年灭亡，刘邦和项羽又进行了楚汉之争，公元前202年刘邦建立西汉。",
+      "source": "统编《中国历史》七年级上册 · 第10课；第11课"
+    },
+    {
+      "id": "han-p-c7",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "张骞出使西域，是从哪座城出发的？",
+      "options": [
+        "长安",
+        "大都",
+        "建业",
+        "临安"
+      ],
+      "answer": 0,
+      "explain": "汉武帝派张骞从长安出发，前往西域。这条往来通道后来被称为丝绸之路。",
+      "source": "统编《中国历史》七年级上册 · 第14课 丝绸之路的开通与经营西域"
+    },
+    {
+      "id": "han-p-c8",
+      "chapterId": "han",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "东汉的都城在哪里？",
+      "options": [
+        "洛阳",
+        "咸阳",
+        "南京",
+        "杭州"
+      ],
+      "answer": 0,
+      "explain": "公元25年刘秀建立东汉，定都洛阳。西汉的都城是长安，两座城不要记混。",
+      "source": "统编《中国历史》七年级上册 · 第13课 东汉的兴衰"
+    },
+    {
+      "id": "han-j-c7",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "公元前60年，西汉设置什么官署管辖西域？",
+      "options": [
+        "西域都护府",
+        "行省",
+        "军机处",
+        "宣政院"
+      ],
+      "answer": 0,
+      "explain": "公元前60年，西汉设置西域都护府，总管西域事务，长官为西域都护。西域从此正式归属中央政权。",
+      "source": "统编《中国历史》七年级上册 · 第14课 丝绸之路的开通与经营西域"
+    },
+    {
+      "id": "han-j-c8",
+      "chapterId": "han",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "卫青、霍去病在汉武帝时期的主要任务是什么？",
+      "options": [
+        "北击匈奴",
+        "开通以洛阳为中心的大运河",
+        "编成《授时历》",
+        "主持虎门销烟"
+      ],
+      "answer": 0,
+      "explain": "汉武帝派卫青、霍去病北击匈奴。匈奴力量大大削弱，汉朝经营西域也更有保障。",
+      "source": "统编《中国历史》七年级上册 · 第12课 大一统王朝的巩固"
+    }
+  ]
+}

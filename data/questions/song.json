@@ -1,0 +1,487 @@
+{
+  "chapterId": "song",
+  "questions": [
+    {
+      "id": "song-p-c1",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "北宋是谁建立的，都城在哪里？",
+      "options": [
+        "赵匡胤，东京开封",
+        "忽必烈，大都",
+        "李渊，长安",
+        "朱元璋，南京"
+      ],
+      "answer": 0,
+      "explain": "960年，赵匡胤建立北宋，以开封为东京。",
+      "source": "统编《中国历史》七年级下册 · 第8课 北宋的政治"
+    },
+    {
+      "id": "song-p-c2",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "王安石变法想达到的主要目标是什么？",
+      "options": [
+        "富国强兵",
+        "取消所有农田",
+        "恢复分封制",
+        "把都城迁到广州"
+      ],
+      "answer": 0,
+      "explain": "1069年，宋神宗任用王安石变法，希望增加收入、增强国力，也就是富国强兵。",
+      "source": "统编《中国历史》七年级下册 · 第8课 北宋的政治"
+    },
+    {
+      "id": "song-p-c3",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "岳飞是哪个朝代的抗金将领？",
+      "options": [
+        "南宋",
+        "秦朝",
+        "明朝",
+        "西汉"
+      ],
+      "answer": 0,
+      "explain": "岳飞是南宋将领，率领岳家军抗金，并在郾城大败金军主力。",
+      "source": "统编《中国历史》七年级下册 · 第10课 金与南宋对峙"
+    },
+    {
+      "id": "song-p-c4",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "活字印刷术是谁发明的？",
+      "options": [
+        "毕昇",
+        "蔡伦",
+        "郑和",
+        "郭守敬"
+      ],
+      "answer": 0,
+      "explain": "北宋匠人毕昇发明活字印刷术。蔡伦改进的是造纸术，不要记混。",
+      "source": "统编《中国历史》七年级下册 · 第14课 辽宋夏金元时期的科技与文化"
+    },
+    {
+      "id": "song-p-c5",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "苏轼号什么？他最著名的文学成就是什么？",
+      "options": [
+        "东坡居士，词和文章都写得好",
+        "诗圣，只写律诗",
+        "成吉思汗，建立蒙古政权",
+        "史圣，撰写《史记》"
+      ],
+      "answer": 0,
+      "explain": "苏轼号东坡居士，是北宋文学家、书画家，词风豪迈。",
+      "source": "统编《中国历史》七年级下册 · 第14课 辽宋夏金元时期的科技与文化"
+    },
+    {
+      "id": "song-p-c6",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "《清明上河图》画的是哪里的城市生活？",
+      "options": [
+        "北宋东京",
+        "唐朝长安",
+        "元朝大都",
+        "秦朝咸阳"
+      ],
+      "answer": 0,
+      "explain": "张择端的《清明上河图》描绘北宋都城东京的城市面貌和各阶层生活。",
+      "source": "统编《中国历史》七年级下册 · 第12课 辽宋夏金元时期经济的繁荣"
+    },
+    {
+      "id": "song-p-m1",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和事迹连起来。",
+      "pairs": [
+        {
+          "id": "was",
+          "left": "王安石",
+          "right": "主持变法，希望富国强兵"
+        },
+        {
+          "id": "ss",
+          "left": "苏轼",
+          "right": "号东坡居士，写豪放词"
+        },
+        {
+          "id": "yf",
+          "left": "岳飞",
+          "right": "率领岳家军在郾城大败金军"
+        }
+      ],
+      "explain": "王安石负责变法，苏轼是文学家，岳飞是南宋抗金将领。",
+      "source": "统编《中国历史》七年级下册 · 第8课；第10课；第14课"
+    },
+    {
+      "id": "song-p-m2",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和成果连起来。",
+      "pairs": [
+        {
+          "id": "bs",
+          "left": "毕昇",
+          "right": "发明活字印刷术"
+        },
+        {
+          "id": "ss2",
+          "left": "苏轼",
+          "right": "《水调歌头》中写月有阴晴圆缺"
+        },
+        {
+          "id": "yf2",
+          "left": "岳飞",
+          "right": "岳家军纪律严明"
+        }
+      ],
+      "explain": "活字印刷属于毕昇；名句出自苏轼；岳飞统领的军队被称为岳家军。",
+      "source": "统编《中国历史》七年级下册 · 第10课；第14课"
+    },
+    {
+      "id": "song-p-o1",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "bei",
+          "text": "赵匡胤建立北宋"
+        },
+        {
+          "id": "bian",
+          "text": "王安石变法"
+        },
+        {
+          "id": "yue",
+          "text": "岳飞抗金"
+        }
+      ],
+      "answer": [
+        "bei",
+        "bian",
+        "yue"
+      ],
+      "explain": "960年北宋建立，1069年王安石变法，岳飞抗金发生在南宋时期。",
+      "source": "统编《中国历史》七年级下册 · 第8课；第10课"
+    },
+    {
+      "id": "song-p-o2",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "songfound",
+          "text": "北宋建立"
+        },
+        {
+          "id": "south",
+          "text": "北宋结束，南宋建立"
+        },
+        {
+          "id": "yancheng",
+          "text": "岳飞取得郾城大捷"
+        }
+      ],
+      "answer": [
+        "songfound",
+        "south",
+        "yancheng"
+      ],
+      "explain": "北宋建于960年，1127年北宋结束、南宋建立，郾城大捷发生在南宋抗金期间。",
+      "source": "统编《中国历史》七年级下册 · 第8课；第10课"
+    },
+    {
+      "id": "song-j-c1",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "北宋用“杯酒释兵权”等方式加强中央集权。下面哪句评价符合教材？",
+      "options": [
+        "政权更稳定，但没有实现全国统一",
+        "赵匡胤统一了当时的所有政权",
+        "北宋因此立刻灭亡",
+        "这次改革创立了科举"
+      ],
+      "answer": 0,
+      "explain": "北宋解除将领兵权、派文臣管地方，有利于稳定，但辽和西夏等政权仍然并立，全国并没有统一。",
+      "source": "统编《中国历史》七年级下册 · 第8课 北宋的政治"
+    },
+    {
+      "id": "song-j-c2",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "王安石变法开始于哪一年？支持他的皇帝是谁？",
+      "options": [
+        "1069年，宋神宗",
+        "960年，宋太祖",
+        "1127年，宋高宗",
+        "1271年，元世祖"
+      ],
+      "answer": 0,
+      "explain": "1069年，宋神宗任用王安石主持变法，目的是摆脱危机、实现富国强兵。",
+      "source": "统编《中国历史》七年级下册 · 第8课 北宋的政治"
+    },
+    {
+      "id": "song-j-c3",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "哪一组属于王安石变法的措施？",
+      "options": [
+        "青苗法、募役法、方田均税法、保甲法",
+        "推恩令、盐铁官营",
+        "行省制、宣政院",
+        "八股取士、厂卫"
+      ],
+      "answer": 0,
+      "explain": "这些新法涉及农业借贷、徭役、土地税和军事训练。新法增加了财政收入，也引起激烈争论。",
+      "source": "统编《中国历史》七年级下册 · 第8课 北宋的政治"
+    },
+    {
+      "id": "song-j-c4",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "1127年发生了什么？南宋的都城后来在哪里？",
+      "options": [
+        "靖康之变，北宋灭亡；南宋定都临安",
+        "安史之乱；都城仍在长安",
+        "郑和起航；都城在南京",
+        "虎门销烟；都城在广州"
+      ],
+      "answer": 0,
+      "explain": "1127年金军攻破东京，北宋灭亡，史称靖康之变。赵构建立南宋，以临安为都城。",
+      "source": "统编《中国历史》七年级下册 · 第10课 金与南宋对峙"
+    },
+    {
+      "id": "song-j-c5",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "教材怎样叙述岳飞后来的遭遇？",
+      "options": [
+        "被宋高宗和秦桧以“莫须有”的罪名杀害",
+        "在郾城战败后投降",
+        "成为元朝皇帝",
+        "东渡日本"
+      ],
+      "answer": 0,
+      "explain": "岳飞取得郾城大捷后，宋高宗和秦桧用“莫须有”的罪名加害他。“莫须有”意思是罪名并不确实。",
+      "source": "统编《中国历史》七年级下册 · 第10课 金与南宋对峙"
+    },
+    {
+      "id": "song-j-c6",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "指南针用于航海，大约开始于什么时候？",
+      "options": [
+        "北宋末年",
+        "秦朝",
+        "商朝甲骨文时期",
+        "鸦片战争以后"
+      ],
+      "answer": 0,
+      "explain": "宋代制成罗盘。北宋末年，中国海船开始使用指南针，后来这项技术传到其他地区。",
+      "source": "统编《中国历史》七年级下册 · 第14课 辽宋夏金元时期的科技与文化"
+    },
+    {
+      "id": "song-j-m1",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和主张或发明连起来。",
+      "pairs": [
+        {
+          "id": "wasj",
+          "left": "王安石",
+          "right": "变法以富国强兵"
+        },
+        {
+          "id": "ssj",
+          "left": "苏轼",
+          "right": "豪放词的代表人物"
+        },
+        {
+          "id": "bsj",
+          "left": "毕昇",
+          "right": "发明活字印刷术"
+        }
+      ],
+      "explain": "王安石是政治改革家，苏轼代表豪放词，毕昇发明活字印刷。",
+      "source": "统编《中国历史》七年级下册 · 第8课；第14课"
+    },
+    {
+      "id": "song-j-m2",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和史实连起来。",
+      "pairs": [
+        {
+          "id": "zk",
+          "left": "赵匡胤",
+          "right": "陈桥兵变后建立北宋"
+        },
+        {
+          "id": "yfj",
+          "left": "岳飞",
+          "right": "郾城大捷"
+        },
+        {
+          "id": "smg",
+          "left": "司马光",
+          "right": "主持编写编年体通史《资治通鉴》"
+        }
+      ],
+      "explain": "陈桥兵变后赵匡胤建立北宋；郾城是岳飞抗金的重要战役；《资治通鉴》由司马光主持编写。",
+      "source": "统编《中国历史》七年级下册 · 第8课；第10课；第14课"
+    },
+    {
+      "id": "song-j-o1",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "chenqiao",
+          "text": "陈桥兵变，北宋建立"
+        },
+        {
+          "id": "reform",
+          "text": "王安石变法"
+        },
+        {
+          "id": "jingkang",
+          "text": "靖康之变，南宋建立"
+        },
+        {
+          "id": "yancheng",
+          "text": "郾城大捷"
+        }
+      ],
+      "answer": [
+        "chenqiao",
+        "reform",
+        "jingkang",
+        "yancheng"
+      ],
+      "explain": "960年北宋建立，1069年变法，1127年靖康之变，其后岳飞在南宋取得郾城大捷。",
+      "source": "统编《中国历史》七年级下册 · 第8课；第10课"
+    },
+    {
+      "id": "song-j-o2",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按政权建立的先后排序。",
+      "items": [
+        {
+          "id": "liao",
+          "text": "耶律阿保机建立契丹政权（后改辽）"
+        },
+        {
+          "id": "songb",
+          "text": "赵匡胤建立北宋"
+        },
+        {
+          "id": "xia",
+          "text": "元昊建立西夏"
+        },
+        {
+          "id": "jin",
+          "text": "阿骨打建立金"
+        }
+      ],
+      "answer": [
+        "liao",
+        "songb",
+        "xia",
+        "jin"
+      ],
+      "explain": "916年契丹政权建立，960年北宋建立，1038年西夏建立，1115年金建立。",
+      "source": "统编《中国历史》七年级下册 · 第8课；第9课 辽、西夏与北宋并立；第10课"
+    },
+    {
+      "id": "song-p-c7",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "南宋的都城临安，是今天的哪里？",
+      "options": [
+        "杭州",
+        "南京",
+        "西安",
+        "北京"
+      ],
+      "answer": 0,
+      "explain": "1127年南宋建立后，以临安为都城。临安就是今天的浙江杭州。",
+      "source": "统编《中国历史》七年级下册 · 第10课 金与南宋对峙"
+    },
+    {
+      "id": "song-p-c8",
+      "chapterId": "song",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "世界上最早的纸币出现在什么时候、什么地方？",
+      "options": [
+        "北宋前期的四川，叫作交子",
+        "秦朝的咸阳，叫作小篆",
+        "明朝才出现最早的纸币",
+        "清朝的广州，叫作银元"
+      ],
+      "answer": 0,
+      "explain": "北宋前期，四川地区出现交子，这是世界上最早的纸币，说明宋代商业已经很活跃。",
+      "source": "统编《中国历史》七年级下册 · 第12课 辽宋夏金元时期经济的繁荣"
+    },
+    {
+      "id": "song-j-c7",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "我国古代经济重心南移，在什么时候最终完成？",
+      "options": [
+        "南宋",
+        "秦朝",
+        "西汉",
+        "明朝初年"
+      ],
+      "answer": 0,
+      "explain": "经济重心南移从唐朝中期开始，到南宋最终完成。南方成为全国的经济重心。",
+      "source": "统编《中国历史》七年级下册 · 第12课 辽宋夏金元时期经济的繁荣"
+    },
+    {
+      "id": "song-j-c8",
+      "chapterId": "song",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "宋金和议之后，双方的分界大致是哪里？",
+      "options": [
+        "东起淮水，西至大散关",
+        "以长江为界，南宋只剩岭南",
+        "以长城为界",
+        "以鸭绿江为界"
+      ],
+      "answer": 0,
+      "explain": "宋金达成和议后，双方以东起淮水、西至大散关一线为界，南宋偏安江南。",
+      "source": "统编《中国历史》七年级下册 · 第10课 金与南宋对峙"
+    }
+  ]
+}

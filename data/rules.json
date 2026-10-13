@@ -1,0 +1,13 @@
+{
+  "passPercent": 60,
+  "starBands": [
+    { "minPercent": 100, "stars": 3 },
+    { "minPercent": 80, "stars": 2 },
+    { "minPercent": 60, "stars": 1 }
+  ],
+  "questionsPerRun": { "min": 8, "max": 10 },
+  "minQuestionsInBank": 12,
+  "storageKey": "chuanyue-huaxia-v1",
+  "sessionKey": "chuanyue-huaxia-run-v1",
+  "resultKey": "chuanyue-huaxia-result-v1"
+}

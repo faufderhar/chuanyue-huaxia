@@ -1,0 +1,487 @@
+{
+  "chapterId": "ming",
+  "questions": [
+    {
+      "id": "ming-p-c1",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "明朝是谁在1368年建立的？最初的都城在哪里？",
+      "options": [
+        "朱元璋，应天府（今南京）",
+        "忽必烈，大都",
+        "李世民，长安",
+        "康熙帝，沈阳"
+      ],
+      "answer": 0,
+      "explain": "1368年朱元璋称帝，建立明朝，定都应天府，他就是明太祖。",
+      "source": "统编《中国历史》七年级下册 · 第15课 明朝的统治"
+    },
+    {
+      "id": "ming-p-c2",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "郑和一共几次下西洋？",
+      "options": [
+        "7次",
+        "1次",
+        "3次",
+        "12次"
+      ],
+      "answer": 0,
+      "explain": "1405年到1433年，郑和率领船队七次下西洋。",
+      "source": "统编《中国历史》七年级下册 · 第16课 明朝的对外关系"
+    },
+    {
+      "id": "ming-p-c3",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "戚继光抗击的是什么？",
+      "options": [
+        "骚扰东南沿海的倭寇",
+        "北方的匈奴",
+        "荷兰殖民者",
+        "英国军舰"
+      ],
+      "answer": 0,
+      "explain": "戚继光率领戚家军在东南沿海抗倭。1561年台州九战九捷，浙东倭患被平定。",
+      "source": "统编《中国历史》七年级下册 · 第16课 明朝的对外关系"
+    },
+    {
+      "id": "ming-p-c4",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "李时珍写的药物学名著是哪一部？",
+      "options": [
+        "《本草纲目》",
+        "《史记》",
+        "《授时历》",
+        "《离骚》"
+      ],
+      "answer": 0,
+      "explain": "李时珍写成《本草纲目》，总结了我国古代药物学成就。",
+      "source": "统编《中国历史》七年级下册 · 第21课 明清时期的科技与文化"
+    },
+    {
+      "id": "ming-p-c5",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "郑和船队最远到达哪里？",
+      "options": [
+        "非洲东海岸和红海沿岸",
+        "美洲",
+        "北极",
+        "澳大利亚"
+      ],
+      "answer": 0,
+      "explain": "郑和的船队最远到达非洲东海岸和红海沿岸，增进了与亚非国家的友好往来。",
+      "source": "统编《中国历史》七年级下册 · 第16课 明朝的对外关系"
+    },
+    {
+      "id": "ming-p-c6",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "今天我们看到的八达岭等长城，主要是哪个朝代修筑的？",
+      "options": [
+        "明朝",
+        "夏朝",
+        "宋朝",
+        "只是秦朝留下的原墙"
+      ],
+      "answer": 0,
+      "explain": "秦朝已经修过长城。现存长城大多是明朝修筑的，明长城东起鸭绿江，西至嘉峪关。",
+      "source": "统编《中国历史》七年级下册 · 第21课 明清时期的科技与文化"
+    },
+    {
+      "id": "ming-p-m1",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和事迹连起来。",
+      "pairs": [
+        {
+          "id": "zyz",
+          "left": "朱元璋",
+          "right": "1368年建立明朝"
+        },
+        {
+          "id": "zh",
+          "left": "郑和",
+          "right": "七次下西洋"
+        },
+        {
+          "id": "qjg",
+          "left": "戚继光",
+          "right": "在东南沿海抗倭"
+        }
+      ],
+      "explain": "朱元璋建立明朝，郑和远航，戚继光抗倭，三件事不要记混。",
+      "source": "统编《中国历史》七年级下册 · 第15课；第16课"
+    },
+    {
+      "id": "ming-p-m2",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和句子或著作连起来。",
+      "pairs": [
+        {
+          "id": "lsz",
+          "left": "李时珍",
+          "right": "《本草纲目》"
+        },
+        {
+          "id": "qjg2",
+          "left": "戚继光",
+          "right": "封侯非我意，但愿海波平"
+        },
+        {
+          "id": "zh2",
+          "left": "郑和",
+          "right": "船队最远到达非洲东海岸"
+        }
+      ],
+      "explain": "《本草纲目》是药物学著作；诗句表达戚继光希望海面平安；郑和远航到达非洲东海岸一带。",
+      "source": "统编《中国历史》七年级下册 · 第16课；第21课"
+    },
+    {
+      "id": "ming-p-o1",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "found",
+          "text": "朱元璋建立明朝"
+        },
+        {
+          "id": "voyage",
+          "text": "郑和开始下西洋"
+        },
+        {
+          "id": "wo",
+          "text": "戚继光在台州抗倭"
+        }
+      ],
+      "answer": [
+        "found",
+        "voyage",
+        "wo"
+      ],
+      "explain": "1368年明朝建立，1405年郑和首次远航，1561年戚继光取得台州大捷。",
+      "source": "统编《中国历史》七年级下册 · 第15课；第16课"
+    },
+    {
+      "id": "ming-p-o2",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列郑和远航相关的事。",
+      "items": [
+        {
+          "id": "mingfound",
+          "text": "明朝建立"
+        },
+        {
+          "id": "start",
+          "text": "郑和第一次下西洋"
+        },
+        {
+          "id": "end",
+          "text": "郑和第七次远航结束"
+        }
+      ],
+      "answer": [
+        "mingfound",
+        "start",
+        "end"
+      ],
+      "explain": "明朝建立于1368年，郑和远航从1405年延续到1433年。",
+      "source": "统编《中国历史》七年级下册 · 第15课；第16课"
+    },
+    {
+      "id": "ming-j-c1",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "明太祖为加强皇权，在中央采取的重要措施是什么？",
+      "options": [
+        "废除丞相，六部直接对皇帝负责",
+        "设立行省，把权力交给丞相",
+        "恢复分封，取消皇帝",
+        "创立殿试"
+      ],
+      "answer": 0,
+      "explain": "明太祖废除丞相，提升六部职权，使皇权高度集中。",
+      "source": "统编《中国历史》七年级下册 · 第15课 明朝的统治"
+    },
+    {
+      "id": "ming-j-c2",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "郑和下西洋的时间和范围，哪一项正确？",
+      "options": [
+        "1405—1433年，最远到非洲东海岸和红海沿岸",
+        "1662年，只到台湾",
+        "1271年，到达大都",
+        "1905年，沿京张铁路行驶"
+      ],
+      "answer": 0,
+      "explain": "郑和七次远航规模大、次数多，发展了海上丝绸之路，增进了与亚非国家的了解。",
+      "source": "统编《中国历史》七年级下册 · 第16课 明朝的对外关系"
+    },
+    {
+      "id": "ming-j-c3",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "戚继光抗倭的性质，教材怎样定性？",
+      "options": [
+        "是一场反侵略战争",
+        "是明朝内部的税制改革",
+        "是郑和下西洋的一部分",
+        "是闭关锁国政策"
+      ],
+      "answer": 0,
+      "explain": "倭寇侵扰东南沿海。戚继光领导的抗倭战争是反侵略战争，他是民族英雄。",
+      "source": "统编《中国历史》七年级下册 · 第16课 明朝的对外关系"
+    },
+    {
+      "id": "ming-j-c4",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "明长城的东西起止点是哪里？",
+      "options": [
+        "东起鸭绿江，西至嘉峪关",
+        "西起临洮，东到辽东",
+        "东起山海关，西到玉门，教材只写这两个点",
+        "北起漠北，南到南海"
+      ],
+      "answer": 0,
+      "explain": "明长城是完整的军事防御体系，东起鸭绿江，西至嘉峪关。秦长城则西起临洮、东到辽东。",
+      "source": "统编《中国历史》七年级下册 · 第21课 明清时期的科技与文化"
+    },
+    {
+      "id": "ming-j-c5",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "明朝科举采用八股文，带来的主要影响是什么？",
+      "options": [
+        "形式呆板，脱离实际，禁锢思想",
+        "使所有考生都能发明新技术",
+        "取代了行省制",
+        "立刻提高了军队战斗力"
+      ],
+      "answer": 0,
+      "explain": "考试内容限于四书五经，文章必须写成八股。这种格式束缚了读书人的思想。",
+      "source": "统编《中国历史》七年级下册 · 第15课 明朝的统治"
+    },
+    {
+      "id": "ming-j-c6",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "明朝在哪一年灭亡？直接攻入北京的农民军领袖是谁？",
+      "options": [
+        "1644年，李自成",
+        "1368年，朱元璋",
+        "1279年，忽必烈",
+        "1840年，林则徐"
+      ],
+      "answer": 0,
+      "explain": "1644年李自成攻入北京，明朝灭亡。同年清朝把都城迁到北京。",
+      "source": "统编《中国历史》七年级下册 · 第17课 明朝的灭亡和清朝的建立"
+    },
+    {
+      "id": "ming-j-m1",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和措施或行动连起来。",
+      "pairs": [
+        {
+          "id": "zyzj",
+          "left": "朱元璋",
+          "right": "废除丞相，强化皇权"
+        },
+        {
+          "id": "zhj",
+          "left": "郑和",
+          "right": "七下西洋，发展海上丝绸之路"
+        },
+        {
+          "id": "qjgj",
+          "left": "戚继光",
+          "right": "编练戚家军，抗击倭寇"
+        }
+      ],
+      "explain": "废丞相是内政，下西洋是远航，抗倭是东南海防，分别对应三人。",
+      "source": "统编《中国历史》七年级下册 · 第15课；第16课"
+    },
+    {
+      "id": "ming-j-m2",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和相关史实连起来。",
+      "pairs": [
+        {
+          "id": "lszj",
+          "left": "李时珍",
+          "right": "编写《本草纲目》"
+        },
+        {
+          "id": "yongle",
+          "left": "明成祖",
+          "right": "迁都北京，派遣郑和远航"
+        },
+        {
+          "id": "qjgj2",
+          "left": "戚继光",
+          "right": "1561年台州九战九捷"
+        }
+      ],
+      "explain": "《本草纲目》总结药物学；明成祖迁都并支持远航；台州九捷是戚继光抗倭的关键战役。",
+      "source": "统编《中国历史》七年级下册 · 第15课；第16课；第21课"
+    },
+    {
+      "id": "ming-j-o1",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "nanjing",
+          "text": "朱元璋在应天府建立明朝"
+        },
+        {
+          "id": "sea",
+          "text": "郑和第一次下西洋"
+        },
+        {
+          "id": "beijing",
+          "text": "明成祖迁都北京"
+        },
+        {
+          "id": "taizhou",
+          "text": "戚继光台州抗倭"
+        }
+      ],
+      "answer": [
+        "nanjing",
+        "sea",
+        "beijing",
+        "taizhou"
+      ],
+      "explain": "1368年建国，1405年首次远航，1421年迁都北京，1561年台州九捷。",
+      "source": "统编《中国历史》七年级下册 · 第15课；第16课"
+    },
+    {
+      "id": "ming-j-o2",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "prime",
+          "text": "明太祖废除丞相"
+        },
+        {
+          "id": "voyages",
+          "text": "郑和七下西洋"
+        },
+        {
+          "id": "qi",
+          "text": "戚继光抗倭"
+        },
+        {
+          "id": "li",
+          "text": "李自成攻入北京，明朝灭亡"
+        }
+      ],
+      "answer": [
+        "prime",
+        "voyages",
+        "qi",
+        "li"
+      ],
+      "explain": "废除丞相在明初，远航在永乐至宣德年间，抗倭在明朝中期，1644年明朝灭亡。",
+      "source": "统编《中国历史》七年级下册 · 第15课；第16课；第17课"
+    },
+    {
+      "id": "ming-p-c7",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "明成祖把明朝的都城迁到了哪里？",
+      "options": [
+        "北京",
+        "西安",
+        "成都",
+        "广州"
+      ],
+      "answer": 0,
+      "explain": "明太祖定都应天府，就是今天的南京。明成祖后来迁都北京。",
+      "source": "统编《中国历史》七年级下册 · 第15课 明朝的统治"
+    },
+    {
+      "id": "ming-p-c8",
+      "chapterId": "ming",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "《天工开物》的作者是谁？",
+      "options": [
+        "宋应星",
+        "李时珍",
+        "司马迁",
+        "郭守敬"
+      ],
+      "answer": 0,
+      "explain": "明朝宋应星写成《天工开物》，记录农业和手工业的生产技术。李时珍写的是《本草纲目》。",
+      "source": "统编《中国历史》七年级下册 · 第21课 明清时期的科技与文化"
+    },
+    {
+      "id": "ming-j-c7",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "《农政全书》的作者是谁？这部书主要总结什么？",
+      "options": [
+        "徐光启，总结农业生产技术",
+        "李时珍，只辑录诗词",
+        "宋应星，只记录科举格式",
+        "郑和，只记录远航航线"
+      ],
+      "answer": 0,
+      "explain": "徐光启编写《农政全书》，总结了我国古代农业生产的先进经验和技术。它和《本草纲目》《天工开物》都是明代科技名著。",
+      "source": "统编《中国历史》七年级下册 · 第21课 明清时期的科技与文化"
+    },
+    {
+      "id": "ming-j-c8",
+      "chapterId": "ming",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "明成祖在哪一年把都城迁到北京？",
+      "options": [
+        "1421年",
+        "1368年",
+        "1405年",
+        "1644年"
+      ],
+      "answer": 0,
+      "explain": "1368年明朝定都应天府。1421年明成祖迁都北京。1405年是郑和首次远航，不是迁都的年份。",
+      "source": "统编《中国历史》七年级下册 · 第15课 明朝的统治"
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "chapterId": "sanguo",
+  "questions": [
+    {
+      "id": "sanguo-p-c1",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "官渡之战的结果是什么？",
+      "options": [
+        "曹操打败袁绍，后来基本统一北方",
+        "孙权打败曹操",
+        "刘备建立宋朝",
+        "诸葛亮发明造纸术"
+      ],
+      "answer": 0,
+      "explain": "200年官渡之战，曹操以少胜多打败袁绍，为统一北方打下基础。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-p-c2",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "赤壁之战中，谁打败了曹操？",
+      "options": [
+        "孙权和刘备的联军",
+        "只有秦始皇",
+        "金军",
+        "郑和的船队"
+      ],
+      "answer": 0,
+      "explain": "208年，孙刘联军在赤壁用火攻打败曹操，曹操未能统一南方。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-p-c3",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "刘备三顾茅庐，请出的是谁？",
+      "options": [
+        "诸葛亮",
+        "曹操",
+        "李白",
+        "康熙"
+      ],
+      "answer": 0,
+      "explain": "刘备三次到隆中拜访诸葛亮。诸葛亮出来辅佐他，后来成为蜀汉丞相。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-p-c4",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "曹操有没有自己当皇帝？",
+      "options": [
+        "没有。称帝建立魏国的是他的儿子曹丕",
+        "有，他在200年建立宋朝",
+        "有，他就是秦始皇",
+        "没有，称帝的是屈原"
+      ],
+      "answer": 0,
+      "explain": "曹操统一北方，但没有称帝。220年曹丕称帝，国号魏，曹操被追尊为魏武帝。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-p-c5",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "刘备建立的政权史称什么？",
+      "options": [
+        "蜀汉",
+        "南宋",
+        "元朝",
+        "武周"
+      ],
+      "answer": 0,
+      "explain": "221年，刘备在成都称帝，国号汉，史称蜀汉。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-p-c6",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "学习三国时，下面哪句话是对的？",
+      "options": [
+        "《三国演义》是小说，不能把里面的情节都当成史实",
+        "小说里的每件事都是教材史实",
+        "曹操建立了秦朝",
+        "赤壁之战没有发生过"
+      ],
+      "answer": 0,
+      "explain": "教材讲的赤壁之战，是孙刘联军用火攻打败曹操。小说中的一些故事，不能直接当作历史。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-p-m1",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和事迹连起来。",
+      "pairs": [
+        {
+          "id": "cc",
+          "left": "曹操",
+          "right": "官渡之战打败袁绍"
+        },
+        {
+          "id": "lb",
+          "left": "刘备",
+          "right": "三顾茅庐请诸葛亮"
+        },
+        {
+          "id": "sq",
+          "left": "孙权",
+          "right": "在江东建立后来的吴"
+        }
+      ],
+      "explain": "曹操胜在官渡，刘备请来诸葛亮，孙权立足江东并最终称帝建立吴。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-p-m2",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "match",
+      "prompt": "把人物和对应的话连起来。",
+      "pairs": [
+        {
+          "id": "zgl",
+          "left": "诸葛亮",
+          "right": "建议联合孙权、对抗曹操"
+        },
+        {
+          "id": "cc2",
+          "left": "曹操",
+          "right": "老骥伏枥，志在千里"
+        },
+        {
+          "id": "lb3",
+          "left": "刘备",
+          "right": "221年建立蜀汉"
+        }
+      ],
+      "explain": "隆中对的要点是联孙抗曹；“老骥伏枥”是曹操的诗句；刘备于221年建立蜀汉。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-p-o1",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "guandu",
+          "text": "官渡之战"
+        },
+        {
+          "id": "chibi",
+          "text": "赤壁之战"
+        },
+        {
+          "id": "wei",
+          "text": "曹丕称帝，建立魏"
+        }
+      ],
+      "answer": [
+        "guandu",
+        "chibi",
+        "wei"
+      ],
+      "explain": "200年官渡之战，208年赤壁之战，220年曹丕称帝建立魏。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-p-o2",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "visit",
+          "text": "刘备三顾茅庐"
+        },
+        {
+          "id": "chi",
+          "text": "孙刘联军在赤壁打败曹操"
+        },
+        {
+          "id": "shu",
+          "text": "刘备称帝，建立蜀汉"
+        }
+      ],
+      "answer": [
+        "visit",
+        "chi",
+        "shu"
+      ],
+      "explain": "三顾茅庐在赤壁之战以前，赤壁之战在208年，刘备于221年称帝。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-j-c1",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "官渡之战和赤壁之战分别发生在哪一年？",
+      "options": [
+        "200年，208年",
+        "220年，221年",
+        "960年，1127年",
+        "公元前221年，公元前207年"
+      ],
+      "answer": 0,
+      "explain": "200年曹操在官渡打败袁绍；208年孙刘联军在赤壁打败曹操。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-j-c2",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "魏、蜀、吴三国正式建立的顺序，哪一项正确？",
+      "options": [
+        "220年曹丕建魏，221年刘备建蜀汉，229年孙权建吴",
+        "孙权最先称帝，然后才有赤壁之战",
+        "刘备在200年建立元朝",
+        "曹操在208年称帝"
+      ],
+      "answer": 0,
+      "explain": "曹丕、刘备、孙权先后称帝，魏、蜀、吴鼎立的局面形成。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-j-c3",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "隆中对里，诸葛亮给刘备的关键策略是什么？",
+      "options": [
+        "占据荆州、益州，联合孙权对抗曹操",
+        "单独投降曹操",
+        "立刻渡海下西洋",
+        "恢复西周分封制"
+      ],
+      "answer": 0,
+      "explain": "诸葛亮分析天下形势，建议刘备先占荆、益，外结孙权，再等待时机北上。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-j-c4",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "哪一年西晋灭吴，结束了三国鼎立？",
+      "options": [
+        "280年",
+        "208年",
+        "220年",
+        "581年"
+      ],
+      "answer": 0,
+      "explain": "263年魏灭蜀，266年西晋代魏，280年西晋灭吴，全国重新统一。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立；第17课 西晋的短暂统一和北方各族的内迁"
+    },
+    {
+      "id": "sanguo-j-c5",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "对曹操的身份，哪一种表述符合教材？",
+      "options": [
+        "他是东汉末年政治家、军事家，生前没有称帝",
+        "他是魏朝的开国皇帝",
+        "他在赤壁之战中打败了孙刘联军",
+        "他建立了蜀汉"
+      ],
+      "answer": 0,
+      "explain": "曹操基本统一北方，赤壁战败。称帝的是曹丕，曹操后来被追尊为魏武帝。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-j-c6",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "赤壁之战的史实要点是什么？",
+      "options": [
+        "孙刘联军火攻，以少胜多打败曹操",
+        "诸葛亮呼风下雨被教材当作史实",
+        "曹操在赤壁统一了全国",
+        "这场战役发生在唐朝"
+      ],
+      "answer": 0,
+      "explain": "教材确认的是孙刘联军在赤壁以火攻打败曹操。把小说情节直接当成史实，就不准确了。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-j-m1",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和史实连起来。",
+      "pairs": [
+        {
+          "id": "ccj",
+          "left": "曹操",
+          "right": "200年官渡之战打败袁绍"
+        },
+        {
+          "id": "sqj",
+          "left": "孙权",
+          "right": "229年称帝，都城建业"
+        },
+        {
+          "id": "lbj",
+          "left": "刘备",
+          "right": "221年在成都称帝，建立蜀汉"
+        }
+      ],
+      "explain": "三个年份分别对应曹操的关键战役，以及吴、蜀两个政权的建立。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-j-m2",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "match",
+      "prompt": "把人物和贡献连起来。",
+      "pairs": [
+        {
+          "id": "zglj",
+          "left": "诸葛亮",
+          "right": "提出隆中对，后治理蜀地"
+        },
+        {
+          "id": "cp",
+          "left": "曹丕",
+          "right": "220年称帝建立魏"
+        },
+        {
+          "id": "sqj2",
+          "left": "孙权",
+          "right": "联合刘备，参加赤壁之战"
+        }
+      ],
+      "explain": "隆中对出自诸葛亮；建立魏朝的是曹丕，不是曹操；孙权是赤壁之战中孙刘一方的首领。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-j-o1",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "gd",
+          "text": "官渡之战"
+        },
+        {
+          "id": "cb",
+          "text": "赤壁之战"
+        },
+        {
+          "id": "wei2",
+          "text": "曹丕建立魏"
+        },
+        {
+          "id": "wu",
+          "text": "孙权建立吴"
+        }
+      ],
+      "answer": [
+        "gd",
+        "cb",
+        "wei2",
+        "wu"
+      ],
+      "explain": "顺序是200年、208年、220年、229年。刘备建立蜀汉在221年，夹在魏和吴之间。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-j-o2",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "order",
+      "prompt": "按时间先后排列。",
+      "items": [
+        {
+          "id": "longzhong",
+          "text": "诸葛亮提出隆中对"
+        },
+        {
+          "id": "chibi2",
+          "text": "赤壁之战"
+        },
+        {
+          "id": "chengdu",
+          "text": "刘备在成都称帝"
+        },
+        {
+          "id": "wuzhang",
+          "text": "诸葛亮病逝于五丈原"
+        }
+      ],
+      "answer": [
+        "longzhong",
+        "chibi2",
+        "chengdu",
+        "wuzhang"
+      ],
+      "explain": "隆中对在赤壁之战前，刘备221年称帝，诸葛亮234年病逝于五丈原。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-p-c7",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "吴国的都城建业，是今天的哪座城市？",
+      "options": [
+        "南京",
+        "西安",
+        "开封",
+        "北京"
+      ],
+      "answer": 0,
+      "explain": "229年孙权称帝，国号吴，都城在建业，就是今天的南京。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-p-c8",
+      "chapterId": "sanguo",
+      "difficulty": "primary",
+      "type": "choice",
+      "prompt": "吴国船队到达的夷洲，大致是今天的哪里？",
+      "options": [
+        "台湾",
+        "日本",
+        "天竺",
+        "非洲东海岸"
+      ],
+      "answer": 0,
+      "explain": "孙权派船队到达夷洲。夷洲就是今天的台湾，这加强了内地和台湾的联系。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-j-c7",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "曹丕建立的魏，都城在哪里？",
+      "options": [
+        "洛阳",
+        "成都",
+        "建业",
+        "长安"
+      ],
+      "answer": 0,
+      "explain": "220年曹丕称帝，国号魏，定都洛阳。蜀汉都城在成都，吴的都城在建业。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    },
+    {
+      "id": "sanguo-j-c8",
+      "chapterId": "sanguo",
+      "difficulty": "junior",
+      "type": "choice",
+      "prompt": "官渡之战中，曹操打败的主要对手是谁？",
+      "options": [
+        "袁绍",
+        "孙权",
+        "秦始皇",
+        "忽必烈"
+      ],
+      "answer": 0,
+      "explain": "200年，曹操在官渡以少胜多打败袁绍，为后来基本统一北方打下基础。",
+      "source": "统编《中国历史》七年级上册 · 第16课 三国鼎立"
+    }
+  ]
+}
