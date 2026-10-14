@@ -222,6 +222,7 @@ h2 { font-size: 1.35rem; margin-top: 8px; }
 .person-chip.is-locked { filter: grayscale(0.3); }
 .person-chip.is-locked svg { opacity: 0.72; }
 .person-name { font-family: var(--serif); }
+.person-chip .meta { text-align: center; line-height: 1.35; }
 .action-row { margin: 16px 0; }
 .score-num { font-family: var(--serif); font-size: 3rem; margin: 8px 0; }
 

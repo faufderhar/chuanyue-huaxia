@@ -361,6 +361,20 @@ export function frameTier(progress, person, linkedTotal) {
   return "none";
 }
 
+/** 过关即铜卡。进度只写还差几题，不写 0/5 这种分数。 */
+export function tierProgressText(frame, correctCount, linkedTotal) {
+  const done = Math.max(0, correctCount || 0);
+  if (frame === "bronze") {
+    return `铜卡，再答对 ${Math.max(1, 3 - done)} 题升银卡`;
+  }
+  if (frame === "silver") {
+    const goldAt = Math.max(done + 1, Math.min(5, Math.max(linkedTotal || 0, done + 1)));
+    return `银卡，再答对 ${goldAt - done} 题升金卡`;
+  }
+  if (frame === "gold") return "金卡";
+  return "";
+}
+
 export function evaluateAchievements(progress, { characters, questions, chapterIds, today }) {
   const earned = new Set(progress.achievements || []);
   const fresh = [];

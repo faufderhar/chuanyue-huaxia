@@ -20,6 +20,7 @@ import {
   pickReview,
   presentQuestion,
   starsFor,
+  tierProgressText,
   todayKey,
   totalStars,
   visibleStreak,
@@ -37,7 +38,6 @@ let stories = [];
 let questions = [];
 let progress;
 
-const TIER_LABEL = { bronze: "铜卡", silver: "银卡", gold: "金卡" };
 const app = document.getElementById("app");
 const cardDialog = el("dialog", { class: "sheet", id: "card-dialog" });
 const confirmDialog = el("dialog", { class: "sheet", id: "confirm-dialog" });
@@ -330,13 +330,13 @@ function renderChapter(id) {
 function personStats(person) {
   const linked = linkedQuestions(questions, person.id).length;
   const got = personCorrectCount(progress, person.id);
-  const goal = Math.min(5, linked || 5);
+  const frame = frameTier(progress, person, linked);
   return {
     linked,
     got,
-    goal,
     tier: cardTier(got, linked),
-    frame: frameTier(progress, person, linked),
+    frame,
+    label: tierProgressText(frame, got, linked),
   };
 }
 
@@ -397,7 +397,7 @@ function personChip(person, unlocked) {
   });
   button.append(createAvatar(person, 72));
   button.append(el("span", { class: "person-name", text: person.name }));
-  button.append(el("span", { class: "meta", text: unlocked ? `${TIER_LABEL[frame]} ${stats.got}/${stats.goal}` : "过关后解锁" }));
+  button.append(el("span", { class: "meta", text: unlocked ? stats.label : "过关后解锁" }));
   return button;
 }
 
@@ -830,7 +830,7 @@ function openCard(id) {
       createAvatar(person, 96),
       el("div", {}, [
         el("h2", { id: "card-title", text: person.name }),
-        el("p", { class: `tier-line tier-${stats.frame}`, text: `${TIER_LABEL[stats.frame]} ${stats.got}/${stats.goal}` }),
+        el("p", { class: `tier-line tier-${stats.frame}`, text: stats.label }),
         el("p", { class: "meta", text: `${person.dynasty} · ${person.years}` }),
         el("p", { class: "role", text: person.role }),
       ]),
