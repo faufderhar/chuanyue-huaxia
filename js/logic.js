@@ -354,16 +354,15 @@ export function cardTier(correctCount, linkedTotal) {
   return "bronze";
 }
 
+/** 卡级只看关联题答对题数。章节过关只收录，不升成铜卡。 */
 export function frameTier(progress, person, linkedTotal) {
-  const tier = cardTier(personCorrectCount(progress, person.id), linkedTotal);
-  if (tier !== "none") return tier;
-  if (isChapterUnlocked(progress, person.chapterId)) return "bronze";
-  return "none";
+  return cardTier(personCorrectCount(progress, person.id), linkedTotal);
 }
 
-/** 过关即铜卡。进度只写还差几题，不写 0/5 这种分数。 */
+/** 已收录但还没有卡级时，提示答对 1 题升铜卡。铜银卡只写还差几题。 */
 export function tierProgressText(frame, correctCount, linkedTotal) {
   const done = Math.max(0, correctCount || 0);
+  if (frame === "none") return "已收录，答对 1 题升铜卡";
   if (frame === "bronze") {
     return `铜卡，再答对 ${Math.max(1, 3 - done)} 题升银卡`;
   }

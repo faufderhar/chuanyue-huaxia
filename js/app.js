@@ -216,12 +216,12 @@ function renderHome() {
           if (progress.difficulty) go("#/map");
         },
       }),
-      el("p", { class: "meta", text: progress.difficulty ? `当前${DIFF_LABEL[progress.difficulty]} · 星星 ${stars}/27 · 人物 ${unlocked}/${characters.length}` : "星星按难度分开保存。人物卡只要有一个难度过关就会解锁。" }),
+      el("p", { class: "meta", text: progress.difficulty ? `当前${DIFF_LABEL[progress.difficulty]} · 星星 ${stars}/27 · 已收录 ${unlocked}/${characters.length}` : "星星按难度分开保存。过关后收录人物卡，答对关联题才分成铜卡、银卡或金卡。" }),
     ]),
     el("ol", { class: "steps" }, [
       el("li", {}, [el("strong", { text: "选章节" }), el("span", { text: "九章都能点。星星记在这一章上。" })]),
       el("li", {}, [el("strong", { text: "答一关" }), el("span", { text: "单选、连连看、时间排序都会出现。" })]),
-      el("li", {}, [el("strong", { text: "收人物卡" }), el("span", { text: "过关收录铜卡。答对关联题，可以升到银卡和金卡。" })]),
+      el("li", {}, [el("strong", { text: "收人物卡" }), el("span", { text: "过关后收录。答对 1 道关联题得到铜卡，再答对可以升到银卡和金卡。" })]),
     ]),
     el("div", { class: "home-links" }, [
       el("a", { class: "btn btn-ghost", href: "#/wrong", text: `错题本 ${Object.keys(progress.wrong).length}` }),
@@ -389,7 +389,7 @@ function personChip(person, unlocked) {
   const frame = unlocked ? stats.frame : "none";
   const button = el("button", {
     type: "button",
-    class: unlocked ? `person-chip tier-${frame}` : "person-chip is-locked",
+    class: unlocked ? `person-chip${frame === "none" ? "" : ` tier-${frame}`}` : "person-chip is-locked",
     onClick: () => {
       if (unlocked) openCard(person.id);
       else say("过关后才能打开这张人物卡");
@@ -790,7 +790,7 @@ function renderAtlas() {
     el("div", { class: "page-head" }, [
       el("div", {}, [
         el("h1", { text: "我的图鉴" }),
-        el("p", { class: "lede", text: `已收集 ${unlockedPeople.length}/${characters.length} 张人物卡。过关是铜卡，关联题答对 3 道升银卡，答对 5 道或全部升金卡。${progress.difficulty ? `${DIFF_LABEL[progress.difficulty]}星星 ${stars}/27。` : ""}` }),
+        el("p", { class: "lede", text: `已收录 ${unlockedPeople.length}/${characters.length} 张。答对 1 道关联题是铜卡，3 道升银卡，5 道或全部升金卡。${progress.difficulty ? `${DIFF_LABEL[progress.difficulty]}星星 ${stars}/27。` : ""}` }),
       ]),
       el("button", {
         type: "button",
@@ -844,7 +844,7 @@ function openCard(id) {
       el("h3", { text: "小故事" }),
       el("p", { text: story.text }),
       el("p", { class: "source", text: `来源：${story.source}` }),
-    ]) : el("p", { class: "hint", text: "再答对关联题，银卡和金卡会升级。金卡打开后可以读一小段故事。" }),
+    ]) : el("p", { class: "hint", text: "金卡打开后可以读一小段故事。" }),
     el("p", { class: "source", text: `来源：${person.source}` }),
     el("button", { type: "button", class: "btn btn-primary", text: "合上卡片", onClick: () => cardDialog.close() })
   );
